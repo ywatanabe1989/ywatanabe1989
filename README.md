@@ -2,7 +2,7 @@
 
 I'm Yusuke, currently a postdoctoral fellow specializing in neuroscience and biomedical engineering.
 
-## Tips for Students
+## Advice for my younger self
 
 - Basic
   - Use Google Search
@@ -17,8 +17,8 @@ I'm Yusuke, currently a postdoctoral fellow specializing in neuroscience and bio
   - Configure your Linux ([my case](https://github.com/ywatanabe1989/.dotfiles-public))
   - Maintain your own toolbox ([my case](https://github.com/ywatanabe1989/mngs))
   - Use [HHKB Keyboard](https://hhkeyboard.us/hhkb/pro-hybrid-type-s/sku/cg01000-297301)
-  - Use [Emacs](https://www.gnu.org/software/emacs/). I highly recommend [this YouTube channel by @SystemCrafters](https://www.youtube.com/playlist?list=PLEoMzSkcN8oPH1au7H6B7bBJ4ZO7BXjSZ). ([my case](https://github.com/ywatanabe1989/.dotfiles-public/tree/main/.emacs.d))
-    - Do not use Vim, Visual Studio, or Jupyter, <b>as I am not familiar with them</b>.
+  - Use [Emacs](https://www.gnu.org/software/emacs/). I highly recommend [this YouTube channel by @SystemCrafters](https://www.youtube.com/playlist?list=PLEoMzSkcN8oPH1au7H6B7bBJ4ZO7BXjSZ). ([my case](https://github.com/ywatanabe1989/.dotfiles-public/tree/main/.emacs.d/inits))
+    - Do not use Vim, Visual Studio, or Jupyter, <b>as I am not familiar with them ⚡</b>.
   - Create shortcuts ([my case 1](https://github.com/ywatanabe1989/.dotfiles-public/.bash.d/all/)) ([my case 2](https://github.com/ywatanabe1989/.dotfiles-public/.emacs.d/))
   - Embrace documents
   - Use [GitHub](https://github.com/home) ([my case](https://github.com/ywatanabe1989/))
