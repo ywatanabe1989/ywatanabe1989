@@ -7,16 +7,16 @@ I'm Yusuke, currently a postdoctoral fellow specializing in neuroscience and bio
 - Basic
   - Use Google Search
   - Use AI
-  - Use English ([my case](https://ai-ielts.app/))
+  - Use English (Ace the IELTS exam to achieve working in English environments. [my case](https://ai-ielts.app/))
   - Use Linux
   - Use Shortcuts
   - Do not use mouse as much as possible
   - Rely on peers on the Internet
 
 - Advanced
-  - Configure your Linux ([my case](https://github.com/ywatanabe1989/.dotfiles-public))
-  - Maintain your own toolbox ([my case](https://github.com/ywatanabe1989/mngs))
-  - Use [HHKB Keyboard](https://hhkeyboard.us/hhkb/pro-hybrid-type-s/sku/cg01000-297301)
+  - Keep updating your Linux configuration ([my case](https://github.com/ywatanabe1989/.dotfiles-public))
+  - Build your own toolbox ([my case](https://github.com/ywatanabe1989/mngs))
+  - Use [HHKB Keyboard with no letters printed](https://hhkeyboard.us/hhkb/pro-hybrid-type-s/sku/cg01000-297301)
   - Use [Emacs](https://www.gnu.org/software/emacs/). [This YouTube channel (by @SystemCrafters)](https://www.youtube.com/playlist?list=PLEoMzSkcN8oPH1au7H6B7bBJ4ZO7BXjSZ) is highly recommended. ([my case](https://github.com/ywatanabe1989/.dotfiles-public/tree/main/.emacs.d/inits))
     - Do not use Vim, Visual Studio, or Jupyter, <b>as I am not familiar with them</b>.
   - Create shortcuts ([my case 1](https://github.com/ywatanabe1989/.dotfiles-public/.bash.d/all/)) ([my case 2](https://github.com/ywatanabe1989/.dotfiles-public/.emacs.d/))
@@ -27,7 +27,7 @@ I'm Yusuke, currently a postdoctoral fellow specializing in neuroscience and bio
 - 基本
   - Google 検索を活用しなさい
   - AI を積極的に利用しなさい
-  - 英語を使いなさい（私の場合）
+  - 英語を使いなさい（IELTS で永住権を取りなさい。[私の場合](https://ai-ielts.app/)）
   - Linuxを使いなさい
   - ショートカットを覚えなさい
   - 可能な限りマウスを使わないでください
