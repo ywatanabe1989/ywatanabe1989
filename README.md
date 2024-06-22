@@ -47,8 +47,9 @@ I'm Yusuke, a postdoctoral fellow who spends way too much time optimizing my key
 1. Google 検索を極めなさい
    - あなたが直面している課題は、誰かがすでに解決しているはずです
 2. AI を積極的に活用しなさい
-3. 英語力を磨きなさい
-   - IELTS で高得点を取り、国際的な機会を得なさい
+3. 英語でコンピュータのあらゆる操作を行いなさい
+   - 残念ながらコンピュータは日本人のために作られてはいなようです
+   - IELTS で国際的な機会を得なさい
    - [私の IELTS 学習リソース](https://ai-ielts.app/)
 4. Linux を活用しなさい
 5. キーボードショートカットを徹底的に学びなさい
