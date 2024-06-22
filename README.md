@@ -6,6 +6,7 @@ I'm Yusuke, a postdoctoral fellow who spends way too much time optimizing my key
 
 ### Basic Skills
 1. Master Google Search 
+   - You are not the first person who meets your challenges
    - Remember, your 'unique' problem has probably been solved by someone else at 3 AM
 2. Embrace AI technologies actively
 3. Achieve English proficiency
@@ -46,6 +47,8 @@ Enjoy your coding and believe in yourself 😄
 ## 若かりし頃の自分へ
 ### 基本編
 1. Google 検索を極めなさい
+   - あなたは残念ながら、あなたが直面している課題に最初に出会った人ではありません
+   - あなたの「ユニークな」問題は、誰かが深夜3時に解決しているはずです
 2. AI を積極的に活用しなさい
 3. 英語力を磨きなさい
    - IELTS で高得点を取り、国際的な機会を得なさい
