@@ -64,7 +64,7 @@ Enjoy your coding and believe in yourself 😄
    - [私のツールキット例](https://github.com/ywatanabe1989/mngs)
 3. [無刻印の HHKB キーボード](https://hhkeyboard.us/hhkb/pro-hybrid-type-s/sku/cg01000-297301)を使用しなさい
    - あなたが間違えるたびに 無刻印の HHKB が指の使い方を教えてくれるでしょう
-   - 左の手のひらは実は Fn キーを押すためにあります
+   - 実は左の手のひらは Fn キーを押すためにあります
 4. Emacs を学び、使用しなさい
    - チュートリアルから始めなさい `M-x help-with-tutorial` 
      - Emacsを起動し、`M-x help-with-tutorial RET` （Meta (Alt or Esc) キー + x、その後 'help-with-tutorial' と入力し Enter キー）
