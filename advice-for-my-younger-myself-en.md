@@ -1,4 +1,4 @@
-## Advice for my younger self
+## Advice for my younger self as a programming newbee
 
 ### Basic Skills
 1. Master Google Search 
