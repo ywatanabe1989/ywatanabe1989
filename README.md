@@ -66,7 +66,7 @@ I'm Yusuke, a postdoctoral fellow who spends way too much time optimizing my key
    - 実は左の手のひらは Fn キーを押すためにあります
 4. Emacs を学び、使用しなさい
    - チュートリアルから始めなさい `M-x help-with-tutorial` 
-     - Emacsを起動し、`M-x help-with-tutorial RET` （Meta (Alt or Esc) キー + x、その後 'help-with-tutorial' と入力し Enter キー）
+     - Emacsを起動し、`M-x help-with-tutorial RET` （Meta (Alt or Esc) キー + x、その後 'help-with-tutorial' と入力し Enter）
    - [SystemCrafters YouTube チャンネル](https://www.youtube.com/playlist?list=PLEoMzSkcN8oPH1au7H6B7bBJ4ZO7BXjSZ)
    - [私の Emacs 設定](https://github.com/ywatanabe1989/.dotfiles-public/tree/main/.emacs.d/inits)
 5. 独自のショートカットを作成し、最適化しなさい
