@@ -2,7 +2,7 @@
 
 I'm Yusuke, a postdoctoral fellow who spends way too much time optimizing my keyboard shortcuts instead of actually doing research.
 
-## Advice for my younger self
+## Advice for my younger self (with Japanese translation in the end)
 
 ### Basic Skills
 1. Master Google Search 
@@ -41,8 +41,6 @@ I'm Yusuke, a postdoctoral fellow who spends way too much time optimizing my key
 
 ### Final Thoughts
 Enjoy your coding and believe in yourself 😄
-
-(Translation in Japanese)
 
 ## 若かりし頃の自分へ
 ### 基本編
