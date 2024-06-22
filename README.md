@@ -14,7 +14,7 @@ I'm Yusuke, a postdoctoral fellow who spends way too much time optimizing my key
    - [My IELTS preparation resource](https://ai-ielts.app/)
 4. Adopt and utilize Linux
 5. Learn keyboard shortcuts thoroughly
-   - Put cheat sheets on your wall
+   - Cover your wall with cheat sheets
 6. Minimize mouse usage
 7. Seriously read online resources (official documentation, GitHub discussions, Stack Overflow, Reddit, etc.)
 
@@ -52,7 +52,7 @@ I'm Yusuke, a postdoctoral fellow who spends way too much time optimizing my key
    - [私の IELTS 学習リソース](https://ai-ielts.app/)
 4. Linux を活用しなさい
 5. キーボードショートカットを徹底的に学びなさい
-   - 壁にチートシートを貼りなさい
+   - 壁をチートシートで埋めなさい
 6. マウスの使用を最小限に抑えなさい
 7. オンラインリソース (公式ドキュメント、GitHub のディスカッション、Stack Overflow、Reddit など) を真剣に読みなさい
 
