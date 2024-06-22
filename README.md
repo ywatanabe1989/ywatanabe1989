@@ -40,7 +40,7 @@ I'm Yusuke, a postdoctoral fellow who spends way too much time optimizing my key
 7. Don't hesitate to read technical books, documentation, and blog posts
 
 ### Final Thoughts
-Enjoy your coding and believe in yourself
+    Enjoy your coding and believe in yourself
 
 ## 若かりし頃の自分へ
 ### 基本編
@@ -78,4 +78,4 @@ Enjoy your coding and believe in yourself
 7. 技術書、ドキュメント、ブログ記事を読みなさい
 
 ### おわりに
-コーディングを楽しみ、自分自身を信じなさい
+    コーディングを楽しみ、自分自身を信じなさい
