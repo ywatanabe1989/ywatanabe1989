@@ -23,8 +23,8 @@
 2. マウスの使用を最小限に抑えなさい
    - なるべくキーボードのホームポジションから手を離さないでください
 
-8. 技術書、ドキュメント、ブログ記事を読みなさい
-  - 特に初期段階では、信頼のある技術書で大枠を把握することが役立ちます
+3. 技術書、ドキュメント、ブログ記事を読みなさい
+   - 特に初期段階では、信頼のある技術書で大枠を把握することが役立ちます
     
 #### ソフトウェア編
 1. プログラミングには Linux を活用しなさい
@@ -33,10 +33,10 @@
    - Linux の設定を継続的に改善しましょう [私の dotfiles リポジトリ](https://github.com/ywatanabe1989/.dotfiles-public)
 
 2. 関数をたくさん作りなさい
-   - 自動販売機のようなもの、ボタンを押せばコーラが出る、毎回毎回コーラが出る、自販機の中がどうなっていたか気にしなくて済みます
+   - 自動販売機のようなものです、ボタンを押せばコーラが出る、毎回毎回コーラが出る、自販機の中がどうなっていたか気にしなくて済みます
    
 3. Emacs を学び、使用しなさい
-   - 私が知らないだけで Emacs でなくてもよいです、宗教です)、キーボードから手を離したくない、引きこもりコードに集中したい、という精神です
+   - 私が知らないだけで Emacs（宗教です) でなくてもよいです、キーボードから手を離したくない、引きこもりコードに集中したい、という精神です
    - チュートリアルから始めなさい `M-x help-with-tutorial` 
      - Emacsを起動し、`M-x help-with-tutorial RET` （Meta (Alt or Esc) キー + x、その後 'help-with-tutorial' と入力し Enter）
    - [SystemCrafters YouTube チャンネル](https://www.youtube.com/playlist?list=PLEoMzSkcN8oPH1au7H6B7bBJ4ZO7BXjSZ)
@@ -45,16 +45,14 @@
      - 自分の設定を一から作ると何が起こっているのか、どのようにプログラミングしたら良いのか、理解出来ると思います    
      
 3. 個人的なツールボックスを更新し続けなさい
-   - 動く関数が引き出しのどこかにあるとは役に立ちます
-   - [私のツールキット例](https://github.com/ywatanabe1989/mngs)
+   - 動く関数が引き出しのどこかにあるとは役に立ちます [私の Python ツールキット例](https://github.com/ywatanabe1989/mngs)
 
 6. 独自のショートカットを作成し、最適化しなさい
    - [私の bash ショートカット](https://github.com/ywatanabe1989/.dotfiles-public/tree/main/.bash.d/all)
    - [私の Emacs ショートカット](https://github.com/ywatanabe1989/.dotfiles-public/.emacs.d/)
 
 7. GitHub を活用しなさい
-   - [私の GitHub プロフィール](https://github.com/ywatanabe1989/)
-   - 他人のために書きなさい。他人とは将来のあなたです。
+   - 他人のために書きなさい。他人とは将来のあなたです。[私の GitHub レポジトリ](https://github.com/ywatanabe1989/)
      
 #### 道具編     
 1. [無刻印の HHKB キーボード](https://hhkeyboard.us/hhkb/pro-hybrid-type-s/sku/cg01000-297301)を使用しなさい
