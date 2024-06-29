@@ -52,7 +52,7 @@
    - [私の Emacs ショートカット](https://github.com/ywatanabe1989/.dotfiles-public/.emacs.d/)
 
 7. GitHub を活用しなさい
-   - 他人のために書きなさい。他人とは将来のあなたです。[私の GitHub レポジトリ](https://github.com/ywatanabe1989/)
+   - 他人のために書きなさい。他人とは将来のあなたであり、他のマシン上でのあなたです。[私の GitHub レポジトリ](https://github.com/ywatanabe1989/)
      
 #### 道具編     
 1. [無刻印の HHKB キーボード](https://hhkeyboard.us/hhkb/pro-hybrid-type-s/sku/cg01000-297301)を使用しなさい
