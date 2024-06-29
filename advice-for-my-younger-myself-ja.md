@@ -26,7 +26,7 @@
    - [SystemCrafters YouTube チャンネル](https://www.youtube.com/playlist?list=PLEoMzSkcN8oPH1au7H6B7bBJ4ZO7BXjSZ)
    - [私の Emacs 設定](https://github.com/ywatanabe1989/.dotfiles-public/tree/main/.emacs.d/inits)
 5. 独自のショートカットを作成し、最適化しなさい
-   - [私の bash ショートカット](https://github.com/ywatanabe1989/.dotfiles-public/.bash.d/all/)
+   - [私の bash ショートカット](https://github.com/ywatanabe1989/.dotfiles-public/tree/main/.bash.d/all)
    - [私の Emacs ショートカット](https://github.com/ywatanabe1989/.dotfiles-public/.emacs.d/)
 6. GitHub を活用しなさい
    - [私の GitHub プロフィール](https://github.com/ywatanabe1989/)
