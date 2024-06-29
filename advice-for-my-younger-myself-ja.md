@@ -33,5 +33,8 @@
    - 他人のために書きなさい。他人とは将来のあなたです。
 7. 技術書、ドキュメント、ブログ記事を読みなさい
 
+## 実際の開発動画
+   ビールを飲みながら AI と一緒に AI 同士を会話させるプログラムを書きなさい。[動画 OneDrive link; 40 分](https://photos.onedrive.com/share/12F1169924695EF9!250373?cid=12F1169924695EF9&resId=12F1169924695EF9!250373&authkey=!AEcanzCk1fx4cYI&ithint=video&e=TjlgN1)
+
 ### おわりに
   コーディングを楽しみ、自分自身を信じなさい
