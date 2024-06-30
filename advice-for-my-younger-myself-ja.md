@@ -8,9 +8,10 @@
 1. Google 検索を極めなさい
    - あなたが直面している課題は、誰かがすでに解決しているかもしれません
      
-2. AI を積極的に活用しなさい （[Emacs package genai.el](https://github.com/ywatanabe1989/genai/))
+2. AI を積極的に活用しなさい
+   - [Emacs package genai.el](https://github.com/ywatanabe1989/genai/)
 
-3. キーボードショートカットを学びなさい
+4. キーボードショートカットを学びなさい
    - 壁を印刷したチートシートで埋めなさい
    - Ctrl + C の便利さを拡張しましょう
 
