@@ -1,6 +1,6 @@
 # プログラミングを始めたばかりの過去の自分へ
 
-## 私の実際の作業動画
+## 参考：私の作業動画
 [動画 OneDrive link; 40 分](https://photos.onedrive.com/share/12F1169924695EF9!250373?cid=12F1169924695EF9&resId=12F1169924695EF9!250373&authkey=!AEcanzCk1fx4cYI&ithint=video&e=TjlgN1)
 
 ## 基本編
