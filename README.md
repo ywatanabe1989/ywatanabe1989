@@ -3,10 +3,10 @@
 
 #### For Python
 - [mngs](https://github.com/ywatanabe1989/mngs)
+- [emacs-python-import-manager](https://github.com/ywatanabe1989/emacs-python-import-manager)
 
 #### LaTeX
 - [SciTeX](https://github.com/ywatanabe1989/SciTeX)
-- [emacs-python-import-manager](https://github.com/ywatanabe1989/emacs-python-import-manager)
   
 #### For Emacs
 - [emacs-llm](https://github.com/ywatanabe1989/emacs-llm)
