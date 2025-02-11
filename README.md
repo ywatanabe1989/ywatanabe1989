@@ -9,9 +9,9 @@
 - [SciTeX](https://github.com/ywatanabe1989/SciTeX)
   
 #### For Emacs
-- [emacs-llm](https://github.com/ywatanabe1989/emacs-llm)
+- [emacs-llm](https://github.com/ywatanabe1989/genai)
 - [emacs-linter](https://github.com/ywatanabe1989/emacs-linter)
-- [emacs-header-footer](https://github.com/ywatanabe1989/emacs-header-footer)
+- [emacs-header-footer-manager](https://github.com/ywatanabe1989/emacs-header-footer-manager)
 - [emacs-python-import-manager](https://github.com/ywatanabe1989/emacs-python-import-manager)
 
 #### Dotfiles
