@@ -15,7 +15,7 @@
 - [emacs-python-import-manager](https://github.com/ywatanabe1989/emacs-python-import-manager)
 
 #### Dotfiles
-- [.dotfiles-public](https://github.com/ywatanabe1989/.dotfiles-public): My publicly shared configuration files.
+- [.dotfiles-public](https://github.com/ywatanabe1989/.dotfiles-public)
 
 #### Speaking & Writing Practice in English
 - [AI IELTS](https://ai-ielts.app/)
