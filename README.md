@@ -1,5 +1,8 @@
-#### Dementia subtype classification baed on EEG data
-- [EEG Dementia Classification](https://github.com/yanagisawa-lab/eeg-dementia-classification)
+#### For Emacs
+- [emacs-llm](https://github.com/ywatanabe1989/genai)
+- [emacs-linter](https://github.com/ywatanabe1989/emacs-linter)
+- [emacs-header-footer-manager](https://github.com/ywatanabe1989/emacs-header-footer-manager)
+- [emacs-python-import-manager](https://github.com/ywatanabe1989/emacs-python-import-manager)
 
 #### For Python
 - [mngs](https://github.com/ywatanabe1989/mngs)
@@ -7,15 +10,12 @@
 
 #### LaTeX
 - [SciTeX](https://github.com/ywatanabe1989/SciTeX)
-  
-#### For Emacs
-- [emacs-llm](https://github.com/ywatanabe1989/genai)
-- [emacs-linter](https://github.com/ywatanabe1989/emacs-linter)
-- [emacs-header-footer-manager](https://github.com/ywatanabe1989/emacs-header-footer-manager)
-- [emacs-python-import-manager](https://github.com/ywatanabe1989/emacs-python-import-manager)
 
 #### Dotfiles
 - [.dotfiles-public](https://github.com/ywatanabe1989/.dotfiles-public)
+
+#### Dementia subtype classification baed on EEG data
+- [EEG Dementia Classification](https://github.com/yanagisawa-lab/eeg-dementia-classification)
 
 #### Speaking & Writing Practice in English
 - [AI IELTS](https://ai-ielts.app/)
