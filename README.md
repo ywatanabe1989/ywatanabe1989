@@ -1,5 +1,5 @@
 #### Dementia subtype classification baed on EEG data
-- [EEG Dementia Classification](https://github.com/yanagisawa-lab/eeg-dementia-classification): A project focused on classifying dementia using EEG data.
+- [EEG Dementia Classification](https://github.com/yanagisawa-lab/eeg-dementia-classification)
 
 #### For Python
 - [mngs](https://github.com/ywatanabe1989/mngs)
@@ -21,4 +21,4 @@
 - [AI IELTS](https://ai-ielts.app/)
 
 #### For students who want to work as data scientist
-- [Advice for my younger self when starting as a programmer](./docs/advice-for-my-younger-myself-en.md) ([Japanese version](./docs/advice-for-my-younger-myself-ja.md))
+- [Advice on programming to my younger self](./docs/advice-for-my-younger-myself-en.md) ([Japanese version](./docs/advice-for-my-younger-myself-ja.md))
