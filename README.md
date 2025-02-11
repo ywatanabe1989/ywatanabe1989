@@ -8,16 +8,16 @@
 - [mngs](https://github.com/ywatanabe1989/mngs)
 - [emacs-python-import-manager](https://github.com/ywatanabe1989/emacs-python-import-manager)
 
-#### LaTeX
+#### For LaTeX
 - [SciTeX](https://github.com/ywatanabe1989/SciTeX)
 
 #### Dotfiles
 - [.dotfiles-public](https://github.com/ywatanabe1989/.dotfiles-public)
 
-#### Dementia subtype classification baed on EEG data
+#### For dementia subtype classification baed on EEG data
 - [EEG Dementia Classification](https://github.com/yanagisawa-lab/eeg-dementia-classification)
 
-#### Speaking & Writing Practice in English
+#### For speaking & writing Practice in English
 - [AI IELTS](https://ai-ielts.app/)
 
 #### For students who want to work as data scientist
