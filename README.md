@@ -21,4 +21,4 @@
 - [AI IELTS](https://ai-ielts.app/)
 
 #### For students who want to work as data scientist
-- [Advice on programming to my younger self](./docs/advice-for-my-younger-myself-en.md) ([Japanese version](./docs/advice-for-my-younger-myself-ja.md))
+- [Advice on programming to my younger self](./docs/advice-for-my-younger-myself-en.md) ([in Japanese](./docs/advice-for-my-younger-myself-ja.md))
