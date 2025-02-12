@@ -3,6 +3,7 @@
 - [elisp-linter](https://github.com/ywatanabe1989/elisp-linter)
 - [emacs-header-footer-manager](https://github.com/ywatanabe1989/emacs-header-footer-manager)
 - [emacs-python-import-manager](https://github.com/ywatanabe1989/emacs-python-import-manager)
+- [emacs-slack](https://github.com/ywatanabe1989/emacs-slack)
 
 #### For Python
 - [mngs](https://github.com/ywatanabe1989/mngs)
