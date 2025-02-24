@@ -6,6 +6,7 @@
 - [emacs-slack](https://github.com/ywatanabe1989/emacs-slack)
 - [emacs-tab-manager](https://github.com/ywatanabe1989/emacs-tab-manager)
 - [emacs-whisper-live](https://github.com/ywatanabe1989/emacs-whisper-live)
+- [elisp-test](https://github.com/ywatanabe1989/elisp-test)
 
 #### For Python
 - [mngs](https://github.com/ywatanabe1989/mngs)
