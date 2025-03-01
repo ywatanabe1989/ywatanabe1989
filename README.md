@@ -7,7 +7,7 @@
 - [emacs-tab-manager](https://github.com/ywatanabe1989/emacs-tab-manager)
 - [emacs-whisper-live](https://github.com/ywatanabe1989/emacs-whisper-live)
 - [elisp-test](https://github.com/ywatanabe1989/elisp-test)
-- [emacs-spinner](https://github.com/ywatanabe1989/elisp-spinner)
+- [emacs-spinner](https://github.com/ywatanabe1989/emacs-spinner)
 
 #### For Python
 - [mngs](https://github.com/ywatanabe1989/mngs)
