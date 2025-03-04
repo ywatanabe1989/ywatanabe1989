@@ -9,6 +9,7 @@
 - [elisp-test](https://github.com/ywatanabe1989/elisp-test)
 - [emacs-spinner](https://github.com/ywatanabe1989/emacs-spinner)
 - [emacs-message](https://github.com/ywatanabe1989/emacs-message)
+- [emacs-gif-screencast](https://github.com/ywatanabe1989/emacs-gif-screencast)
 
 #### For Python
 - [mngs](https://github.com/ywatanabe1989/mngs)
