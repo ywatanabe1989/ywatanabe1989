@@ -7,7 +7,7 @@
   - [emacs-tab-manager](https://github.com/ywatanabe1989/emacs-tab-manager)
   - [emacs-spinner](https://github.com/ywatanabe1989/emacs-spinner)
 - AI Integration
-  - [emacs-llm](https://github.com/ywatanabe1989/emacs-elisp)    unstable
+  - [emacs-llm](https://github.com/ywatanabe1989/emacs-llm)    unstable
   - [genai](https://github.com/ywatanabe1989/genai)    python-dependent
   - [emacs-whisper-live](https://github.com/ywatanabe1989/emacs-whisper-live)
 - Etc.
