@@ -1,15 +1,20 @@
 #### For Emacs
-- [emacs-llm](https://github.com/ywatanabe1989/genai)
-- [elisp-linter](https://github.com/ywatanabe1989/elisp-linter)
-- [emacs-header-footer-manager](https://github.com/ywatanabe1989/emacs-header-footer-manager)
-- [emacs-python-import-manager](https://github.com/ywatanabe1989/emacs-python-import-manager)
-- [emacs-slack](https://github.com/ywatanabe1989/emacs-slack)
-- [emacs-tab-manager](https://github.com/ywatanabe1989/emacs-tab-manager)
-- [emacs-whisper-live](https://github.com/ywatanabe1989/emacs-whisper-live)
-- [elisp-test](https://github.com/ywatanabe1989/elisp-test)
-- [emacs-spinner](https://github.com/ywatanabe1989/emacs-spinner)
-- [emacs-message](https://github.com/ywatanabe1989/emacs-message)
-- [emacs-gif-screencast](https://github.com/ywatanabe1989/emacs-gif-screencast)
+- Basic
+  - [elisp-test](https://github.com/ywatanabe1989/elisp-test)
+  - [elisp-linter](https://github.com/ywatanabe1989/elisp-linter)
+  - [emacs-header-footer-manager](https://github.com/ywatanabe1989/emacs-header-footer-manager)
+- UI
+  - [emacs-tab-manager](https://github.com/ywatanabe1989/emacs-tab-manager)
+  - [emacs-spinner](https://github.com/ywatanabe1989/emacs-spinner)
+- AI Integration
+  - [emacs-llm](https://github.com/ywatanabe1989/emacs-elisp)
+  - [genai](https://github.com/ywatanabe1989/genai) (dependent on python)
+  - [emacs-whisper-live](https://github.com/ywatanabe1989/emacs-whisper-live)
+- Etc.
+  - [emacs-python-import-manager](https://github.com/ywatanabe1989/emacs-python-import-manager)
+  - [emacs-slack](https://github.com/ywatanabe1989/emacs-slack)
+  - [emacs-message](https://github.com/ywatanabe1989/emacs-message)
+  - [emacs-gif-screencast](https://github.com/ywatanabe1989/emacs-gif-screencast)
 
 #### For Python
 - [mngs](https://github.com/ywatanabe1989/mngs)
