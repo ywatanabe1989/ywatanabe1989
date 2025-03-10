@@ -23,7 +23,7 @@
 #### For LaTeX
 - [SciTeX](https://github.com/ywatanabe1989/SciTeX)
 
-#### For Scientifi Graphing
+#### For Scientific Graphing
 - [SigMacro](https://github.com/ywatanabe1989/SigMacro)
 
 #### Dotfiles
