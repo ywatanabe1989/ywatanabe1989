@@ -5,6 +5,7 @@
   - [emacs-header-footer-manager](https://github.com/ywatanabe1989/emacs-header-footer-manager)
 - UI
   - [emacs-tab-manager](https://github.com/ywatanabe1989/emacs-tab-manager)
+  - [emacs-buffer-navigation](https://github.com/ywatanabe1989/emacs-buffer-navigation)
   - [emacs-spinner](https://github.com/ywatanabe1989/emacs-spinner)
 - AI Integration
   - [emacs-llm](https://github.com/ywatanabe1989/emacs-llm)    unstable
