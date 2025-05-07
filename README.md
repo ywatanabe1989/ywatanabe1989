@@ -11,7 +11,7 @@
   - [emacs-llm](https://github.com/ywatanabe1989/emacs-llm)    unstable
   - [genai](https://github.com/ywatanabe1989/genai)    python-dependent
   - [emacs-whisper-live](https://github.com/ywatanabe1989/emacs-whisper-live)
-  - [emacs-claude-code-auto-accept](https://github.com/ywatanabe1989/emacs-claude-code-auto-accept)
+  - [emacs-claude-code](https://github.com/ywatanabe1989/emacs-claude-code)
 - Etc.
   - [emacs-python-import-manager](https://github.com/ywatanabe1989/emacs-python-import-manager)
   - [emacs-slack](https://github.com/ywatanabe1989/emacs-slack)
