@@ -1,3 +1,24 @@
+#### Scientific Workflow Automation
+- [SciTeX-Cloud](https://github.com/ywatanabe1989/SciTeX-Cloud)
+- [SciTeX-Engine](https://github.com/ywatanabe1989/emacs-claude-code) <- Migrating from emacs-claude-code
+- [SciTeX-Code](https://github.com/ywatanabe1989/SciTeX-Code) <- Migrating from mngs
+- [SciTeX-Viz](https://github.com/ywatanabe1989/SciTeX-Viz) <- Migrating from SigMacro and combinig with mngs
+- [SciTeX-Search](https://github.com/ywatanabe1989/SciTeX-Search) <- Under Development
+- [SciTeX-Paper](https://github.com/ywatanabe1989/SciTeX-Paper)
+
+#### Sientific Projects
+- Dementia subtype classification baed on EEG data
+  - [EEG Dementia Classification](https://github.com/yanagisawa-lab/eeg-dementia-classification)
+- Hippocampal sharp-wave ripples detection using CNN
+  - [ripple_detector_CNN](https://github.com/ywatanabe1989/ripple_detector_CNN)
+  - [towards-threshold-invariance-in-defining-hippocampal-ripples](https://github.com/ywatanabe1989/towards-threshold-invariance-in-defining-hippocampal-ripples)
+- Hippocampal sharp-wave ripples during working memory tasks in humans
+  - [ripple-wm-code](https://github.com/ywatanabe1989/ripple-wm-code)
+- GPU-accerelated phase-amplitude coupling calculation
+  - [gpac](https://github.com/ywatanabe1989/gpac)
+- Intestelligence: A pharmacological neural network using intestine data
+  - [Intestelligence](https://github.com/ywatanabe1989/intestelligence)
+
 #### For Emacs
 - Basic
   - [elisp-test](https://github.com/ywatanabe1989/elisp-test)
@@ -31,18 +52,6 @@
 #### Dotfiles
 - [.dotfiles-public](https://github.com/ywatanabe1989/.dotfiles-public)
 
-#### Sientific Projects
-- Dementia subtype classification baed on EEG data
-  - [EEG Dementia Classification](https://github.com/yanagisawa-lab/eeg-dementia-classification)
-- Hippocampal sharp-wave ripples detection using CNN
-  - [ripple_detector_CNN](https://github.com/ywatanabe1989/ripple_detector_CNN)
-  - [towards-threshold-invariance-in-defining-hippocampal-ripples](https://github.com/ywatanabe1989/towards-threshold-invariance-in-defining-hippocampal-ripples)
-- Hippocampal sharp-wave ripples during working memory tasks in humans
-  - [ripple-wm-code](https://github.com/ywatanabe1989/ripple-wm-code)
-- GPU-accerelated phase-amplitude coupling calculation
-  - [gpac](https://github.com/ywatanabe1989/gpac)
-- Intestelligence: A pharmacological neural network using intestine data
-  - [Intestelligence](https://github.com/ywatanabe1989/intestelligence)
   
 
 #### For speaking & writing Practice in English
