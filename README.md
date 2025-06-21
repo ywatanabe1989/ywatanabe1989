@@ -47,9 +47,6 @@ The SciTeX ecosystem provides a suite of tools for scientific research automatio
   - [emacs-message](https://github.com/ywatanabe1989/emacs-message)
   - [emacs-gif-screencast](https://github.com/ywatanabe1989/emacs-gif-screencast)
 
-#### For Python
-- [mngs](https://github.com/ywatanabe1989/mngs)
-- [emacs-python-import-manager](https://github.com/ywatanabe1989/emacs-python-import-manager)
 
 #### Dotfiles
 - [.dotfiles-public](https://github.com/ywatanabe1989/.dotfiles-public)
