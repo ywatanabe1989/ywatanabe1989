@@ -1,16 +1,18 @@
-#### Scientific Workflow Automation
+#### SciTeX Ecosystem: Automating Scientific Workflows with Human-in-the-Environment AI Integration
+The SciTeX ecosystem provides a suite of tools for scientific research automation, leveraging Emacs as a unified environment for human-AI collaboration.
+
 - [SciTeX-Engine](https://github.com/ywatanabe1989/emacs-claude-code)
-  - LLM agent system in Emacs as a human-in-the-environment system
+  - LLM agent system for Emacs enabling seamless human-AI collaboration
 - [SciTeX-Code](https://github.com/ywatanabe1989/SciTeX-Code)
-  - Python analysis code for standardized scientific codebase
+  - Standardized Python framework for scientific analysis and computation
 - [SciTeX-Viz](https://github.com/ywatanabe1989/SciTeX-Viz)
-  - Python Wrapper for SigmaPlot
+  - Python wrapper for SigmaPlot enabling programmatic scientific visualization
 - [SciTeX-Scholar](https://github.com/ywatanabe1989/SciTeX-Scholar)
   - Literature Search, Knowledge gap identification, and hypotheses generation
 - [SciTeX-Writer](https://github.com/ywatanabe1989/SciTeX-Writer)
-  - LaTeX compilation system
+  - Automated LaTeX compilation system with predefined tex, bibtex, table, and figure files.
 - [SciTeX-Cloud](https://github.com/ywatanabe1989/SciTeX-Cloud)
-  - Cloude platform for the SciTeX ecosystem. This is exactly the source code of https://scitex.ai written in Django
+  - Cloud platform for the SciTeX ecosystem (source code for https://scitex.ai built with Django)
 
 #### Sientific Projects
 - Dementia subtype classification baed on EEG data
