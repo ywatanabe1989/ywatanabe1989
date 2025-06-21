@@ -1,11 +1,16 @@
 #### Scientific Workflow Automation
 - [SciTeX-Engine](https://github.com/ywatanabe1989/emacs-claude-code)
+  - LLM agent system in Emacs as a human-in-the-environment system
 - [SciTeX-Code](https://github.com/ywatanabe1989/SciTeX-Code)
+  - Python analysis code for standardized scientific codebase
 - [SciTeX-Viz](https://github.com/ywatanabe1989/SciTeX-Viz)
+  - Python Wrapper for SigmaPlot
 - [SciTeX-Scholar](https://github.com/ywatanabe1989/SciTeX-Scholar)
+  - Literature Search, Knowledge gap identification, and hypotheses generation
 - [SciTeX-Writer](https://github.com/ywatanabe1989/SciTeX-Writer)
+  - LaTeX compilation system
 - [SciTeX-Cloud](https://github.com/ywatanabe1989/SciTeX-Cloud)
-  - Source code of https://scitex.ai
+  - Cloude platform for the SciTeX ecosystem. This is exactly the source code of https://scitex.ai written in Django
 
 #### Sientific Projects
 - Dementia subtype classification baed on EEG data
