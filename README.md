@@ -27,7 +27,7 @@ The SciTeX ecosystem provides a suite of tools for scientific research automatio
 - Intestelligence: A pharmacological neural network using intestine data
   - [Intestelligence](https://github.com/ywatanabe1989/intestelligence)
 
-#### For Emacs
+#### Emacs Packages
 - Basic
   - [elisp-test](https://github.com/ywatanabe1989/elisp-test)
   - [elisp-linter](https://github.com/ywatanabe1989/elisp-linter)
@@ -52,7 +52,7 @@ The SciTeX ecosystem provides a suite of tools for scientific research automatio
 - [.dotfiles-public](https://github.com/ywatanabe1989/.dotfiles-public)
  
 
-#### For English speaking/writing practice
+#### For English Speaking/Writing Practice for the IELTS exam
 - [AI IELTS](https://ai-ielts.app/)
 
 #### For students who want to work as data scientist
