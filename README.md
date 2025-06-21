@@ -50,7 +50,7 @@
 - [SigMacro](https://github.com/ywatanabe1989/SigMacro)
 
 #### Dotfiles
-- [.dotfiles-public](https://github.com/ywatanabe1989/.dotfiles-public)
+- [.dotfiles_public](https://github.com/ywatanabe1989/.dotfiles_public)
 
   
 
