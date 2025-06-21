@@ -1,7 +1,7 @@
 #### Scientific Workflow Automation
 - [SciTeX-Cloud](https://github.com/ywatanabe1989/SciTeX-Cloud)
 - [SciTeX-Engine](https://github.com/ywatanabe1989/emacs-claude-code) <- Migrating from emacs-claude-code
-- [SciTeX-Code](https://github.com/ywatanabe1989/SciTeX-Code) <- Migrating from mngs
+- [SciTeX-Code](https://github.com/ywatanabe1989/SciTeX-Code)
 - [SciTeX-Viz](https://github.com/ywatanabe1989/SciTeX-Viz) <- Migrating from SigMacro and combinig with mngs
 - [SciTeX-Search](https://github.com/ywatanabe1989/SciTeX-Search) <- Under Development
 - [SciTeX-Paper](https://github.com/ywatanabe1989/SciTeX-Paper)
