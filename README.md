@@ -1,5 +1,4 @@
-#### SciTeX Ecosystem: Automating Scientific Workflows with Human-in-the-Environment AI Integration
-The SciTeX ecosystem provides a suite of tools for scientific research automation, leveraging Emacs as a unified environment for human-AI collaboration.
+#### SciTeX Ecosystem: Automating Scientific Workflows with Human-in-the-Environment AI Integration using Emacs
 
 | Component | Repository | Description |
 |-----------|------------|-------------|
