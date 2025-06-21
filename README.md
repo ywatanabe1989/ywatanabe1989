@@ -51,18 +51,11 @@ The SciTeX ecosystem provides a suite of tools for scientific research automatio
 - [mngs](https://github.com/ywatanabe1989/mngs)
 - [emacs-python-import-manager](https://github.com/ywatanabe1989/emacs-python-import-manager)
 
-#### For LaTeX
-- [SciTeX](https://github.com/ywatanabe1989/SciTeX)
-
-#### For Scientific Graphing
-- [SigMacro](https://github.com/ywatanabe1989/SigMacro)
-
 #### Dotfiles
 - [.dotfiles-public](https://github.com/ywatanabe1989/.dotfiles-public)
+ 
 
-  
-
-#### For speaking & writing Practice in English
+#### For English speaking/writing practice
 - [AI IELTS](https://ai-ielts.app/)
 
 #### For students who want to work as data scientist
