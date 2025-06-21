@@ -14,7 +14,7 @@ The SciTeX ecosystem provides a suite of tools for scientific research automatio
 - [SciTeX-Cloud](https://github.com/ywatanabe1989/SciTeX-Cloud)
   - Cloud platform for the SciTeX ecosystem (source code for https://scitex.ai built with Django)
 
-#### Sientific Projects
+#### Scientific Projects
 - Dementia subtype classification baed on EEG data
   - [EEG Dementia Classification](https://github.com/yanagisawa-lab/eeg-dementia-classification)
 - Hippocampal sharp-wave ripples detection using CNN
