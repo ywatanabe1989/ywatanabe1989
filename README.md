@@ -1,10 +1,11 @@
 #### Scientific Workflow Automation
-- [SciTeX-Cloud](https://github.com/ywatanabe1989/SciTeX-Cloud)
 - [SciTeX-Engine](https://github.com/ywatanabe1989/emacs-claude-code)
 - [SciTeX-Code](https://github.com/ywatanabe1989/SciTeX-Code)
 - [SciTeX-Viz](https://github.com/ywatanabe1989/SciTeX-Viz)
 - [SciTeX-Search](https://github.com/ywatanabe1989/SciTeX-Search) <- Under Development
 - [SciTeX-Writer](https://github.com/ywatanabe1989/SciTeX-Writer)
+- [SciTeX-Cloud](https://github.com/ywatanabe1989/SciTeX-Cloud)
+  - Source code of https://scitex.ai
 
 #### Sientific Projects
 - Dementia subtype classification baed on EEG data
