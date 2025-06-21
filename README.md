@@ -4,7 +4,7 @@
 - [SciTeX-Code](https://github.com/ywatanabe1989/SciTeX-Code)
 - [SciTeX-Viz](https://github.com/ywatanabe1989/SciTeX-Viz)
 - [SciTeX-Search](https://github.com/ywatanabe1989/SciTeX-Search) <- Under Development
-- [SciTeX-Paper](https://github.com/ywatanabe1989/SciTeX-Paper)
+- [SciTeX-Writer](https://github.com/ywatanabe1989/SciTeX-Writer)
 
 #### Sientific Projects
 - Dementia subtype classification baed on EEG data
