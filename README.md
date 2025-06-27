@@ -1,4 +1,4 @@
-#### SciTeX Ecosystem: Automating Scientific Workflows with Human-in-the-Environment AI Integration using Emacs
+#### SciTeX Ecosystem (https://scitex.ai): Automating Scientific Workflows with Human-in-the-Environment AI Integration using Emacs
 
 | Component | Repository | Description |
 |-----------|------------|-------------|
