@@ -12,7 +12,7 @@ Automating Scientific Workflows with Human-in-the-Environment AI Integration usi
 
 ## Scientific Research Projects
 
-- [**EEG Dementia Classification**](https://github.com/yanagisawa-lab/eeg-dementia-classification)) Dementia subtype classification based on EEG data
+- [**Dementia subtypes and mild cognitive impairement detector using EEG data**](https://github.com/yanagisawa-lab/eeg-dementia-classification)
 - [**Hippocampal sharp-wave ripples detector using CNN**](https://github.com/ywatanabe1989/ripple_detector_CNN) ([Analysis Code](https://github.com/ywatanabe1989/towards-threshold-invariance-in-defining-hippocampal-ripples))
 - [**Hippocampal sharp-wave ripples during working memory tasks in humans**](https://github.com/ywatanabe1989/ripple-wm-code)
 - [**GPU-accelerated phase-amplitude coupling calculation**](https://github.com/ywatanabe1989/gpac)
