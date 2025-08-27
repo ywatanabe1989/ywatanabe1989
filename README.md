@@ -2,106 +2,58 @@
 Automating Scientific Workflows with Human-in-the-Environment AI Integration using Emacs
 
 - [**SciTeX-Engine**](https://github.com/ywatanabe1989/emacs-claude-code) Human-in-the-environment platform for collaboration with LLM agents using Emacs
-
 - [**SciTeX-Scholar**](https://github.com/ywatanabe1989/SciTeX-Code/tree/main/src/scitex/scholar) Literature Search, Reference Manager, Knowledge Gap Identification, and Hypotheses Generation
-
 - [**SciTeX-Code**](https://github.com/ywatanabe1989/SciTeX-Code) Standardized and reusable Python scripts for scientific workflows
-
 - [**SciTeX-Viz**](https://github.com/ywatanabe1989/SciTeX-Viz) Python wrapper for SigmaPlot for publication-ready quality of graphing
-
 - [**SciTeX-Writer**](https://github.com/ywatanabe1989/SciTeX-Writer) Organized LaTeX compilation system with predefined directory structures and caption handling
-
 - [**SciTeX-Cloud**](https://github.com/ywatanabe1989/SciTeX-Cloud) Django source code of the cloud platform for SciTeX System (https://scitex.ai)
 
 ---
 
 ## Scientific Research Projects
 
-### Dementia Classification
-- **EEG Dementia Classification** ([eeg-dementia-classification](https://github.com/yanagisawa-lab/eeg-dementia-classification))
-  - Dementia subtype classification based on EEG data
-
-### Hippocampal Ripples
-- **CNN Ripple Detector** ([ripple_detector_CNN](https://github.com/ywatanabe1989/ripple_detector_CNN))
-  - Hippocampal sharp-wave ripples detection using CNN
-
-- **Threshold Invariance** ([towards-threshold-invariance-in-defining-hippocampal-ripples](https://github.com/ywatanabe1989/towards-threshold-invariance-in-defining-hippocampal-ripples))
-  - Research on threshold-invariant ripple detection
-
-### Working Memory
-- **Ripple-WM Analysis** ([ripple-wm-code](https://github.com/ywatanabe1989/ripple-wm-code))
-  - Hippocampal sharp-wave ripples during working memory tasks in humans
-
-### Signal Processing
-- **GPU PAC** ([gpac](https://github.com/ywatanabe1989/gpac))
-  - GPU-accelerated phase-amplitude coupling calculation
-
-### Pharmacology
-- **Intestelligence** ([Intestelligence](https://github.com/ywatanabe1989/intestelligence))
-  - A pharmacological neural network using intestine data
+- [**EEG Dementia Classification**](https://github.com/yanagisawa-lab/eeg-dementia-classification)) Dementia subtype classification based on EEG data
+- [**Hippocampal sharp-wave ripples detector using CNN**](https://github.com/ywatanabe1989/ripple_detector_CNN) ([Analysis Code](https://github.com/ywatanabe1989/towards-threshold-invariance-in-defining-hippocampal-ripples))
+- [**Hippocampal sharp-wave ripples during working memory tasks in humans**](https://github.com/ywatanabe1989/ripple-wm-code)
+- [**GPU-accelerated phase-amplitude coupling calculation**](https://github.com/ywatanabe1989/gpac)
+- [**Intestelligence: A pharmacological neural network using intestine data**](https://github.com/ywatanabe1989/intestelligence)
 
 ---
 
 ## Emacs Packages
 
 ### Basic Tools
-- **Elisp Test** ([elisp-test](https://github.com/ywatanabe1989/elisp-test))
-  - Testing framework for Emacs Lisp
-
-- **Elisp Linter** ([elisp-linter](https://github.com/ywatanabe1989/elisp-linter))
-  - Code linting for Emacs Lisp
-
-- **Header Footer Manager** ([emacs-header-footer-manager](https://github.com/ywatanabe1989/emacs-header-footer-manager))
-  - Manage file headers and footers
+- [**Testing framework for Emacs Lisp**](https://github.com/ywatanabe1989/elisp-test)
+- [**Linter for Elisp**](https://github.com/ywatanabe1989/elisp-linter))
+- [**Header Footer Manager**](https://github.com/ywatanabe1989/emacs-header-footer-manager)
 
 ### User Interface
-- **Tab Manager** ([emacs-tab-manager](https://github.com/ywatanabe1989/emacs-tab-manager))
-  - Enhanced tab management for Emacs
-
-- **Buffer Navigation** ([emacs-buffer-navigation](https://github.com/ywatanabe1989/emacs-buffer-navigation))
-  - Improved buffer navigation tools
-
-- **Spinner** ([emacs-spinner](https://github.com/ywatanabe1989/emacs-spinner))
-  - Visual loading indicators
+- [**Tab Manager**](https://github.com/ywatanabe1989/emacs-tab-manager)
+- [**Buffer Navigator**](https://github.com/ywatanabe1989/emacs-buffer-navigation)
+- [**Spinner**](https://github.com/ywatanabe1989/emacs-spinner)
 
 ### AI Integration
-- **Emacs LLM** ([emacs-llm](https://github.com/ywatanabe1989/emacs-llm)) ⚠️ *Unstable*
-  - LLM integration for Emacs
-
-- **GenAI** ([genai](https://github.com/ywatanabe1989/genai)) 🐍 *Python-dependent*
-  - Generative AI tools
-
-- **Whisper Live** ([emacs-whisper-live](https://github.com/ywatanabe1989/emacs-whisper-live))
-  - Live speech recognition
-
-- **Claude Code** ([emacs-claude-code](https://github.com/ywatanabe1989/emacs-claude-code))
-  - Claude AI integration
+- [**Claude Code Integration**](https://github.com/ywatanabe1989/emacs-claude-code)
+- [**LLM Chat Client Implemented in Elisp**](https://github.com/ywatanabe1989/emacs-llm) ⚠️ *Unstable*
+- [**LLM Chat Client Implemented in Python and Elisp**](https://github.com/ywatanabe1989/genai) 🐍 *Python-dependent, more stable*
+- [**Whisper Live**](https://github.com/ywatanabe1989/emacs-whisper-live)
 
 ### Other Tools
-- **Python Import Manager** ([emacs-python-import-manager](https://github.com/ywatanabe1989/emacs-python-import-manager))
-  - Manage Python imports
-
-- **Slack Integration** ([emacs-slack](https://github.com/ywatanabe1989/emacs-slack))
-  - Slack client for Emacs
-
-- **Message System** ([emacs-message](https://github.com/ywatanabe1989/emacs-message))
-  - Enhanced messaging
-
-- **GIF Screencast** ([emacs-gif-screencast](https://github.com/ywatanabe1989/emacs-gif-screencast))
-  - Create GIF screencasts
+- [**Python Import Manager**](https://github.com/ywatanabe1989/emacs-python-import-manager)
+- [**Slack Integration**](https://github.com/ywatanabe1989/emacs-slack)
+- [**Toggling Tool for print (in python) message (in Elisp) by commenting out**](https://github.com/ywatanabe1989/emacs-message)
+- [**GIF Screencast**](https://github.com/ywatanabe1989/emacs-gif-screencast)
+- [**Screen Capture for WSL with MCP support**](https://github.com/ywatanabe1989/emacs-gif-screencast)
 
 ---
 
 ## Configuration & Apps
 
 ### Configuration
-- **Dotfiles** ([.dotfiles-public](https://github.com/ywatanabe1989/.dotfiles-public))
-  - Public configuration files
+[**Dotfiles**](https://github.com/ywatanabe1989/.dotfiles-public)
 
 ### Education App
-- **AI IELTS** ([AI IELTS](https://ai-ielts.app/))
-  - English speaking/writing practice for IELTS exam
-
+- [**AI IELTS: English speaking/writing practice for IELTS exam**](https://ai-ielts.app/)
 ---
 
 ## Educational Resources
