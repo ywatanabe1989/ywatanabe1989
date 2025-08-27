@@ -51,4 +51,4 @@ Automating Scientific Workflows with Human-in-the-Environment AI Integration usi
 - [**Linux configuration dotfiles**](https://github.com/ywatanabe1989/.dotfiles-public)
 - [**English speaking/writing practice app for IELTS exam**](https://ai-ielts.app/)
 - [**Advice on programming to my younger self**](./docs/advice-for-my-younger-myself-en.md)
-- [**プログラミングについて若い自分へのアドバイス**](./docs/advice-for-my-younger-myself-ja.md)
+- [**プログラミングを始めたばかりの過去の自分へのアドバイス**](./docs/advice-for-my-younger-myself-ja.md)
