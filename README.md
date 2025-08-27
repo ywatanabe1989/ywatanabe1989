@@ -1,25 +1,17 @@
-# SciTeX Ecosystem (https://scitex.ai)
-## Automating Scientific Workflows with Human-in-the-Environment AI Integration using Emacs
+## SciTeX Ecosystem (https://scitex.ai)
+Automating Scientific Workflows with Human-in-the-Environment AI Integration using Emacs
 
-### Core SciTeX Components
+- [**SciTeX-Engine**](https://github.com/ywatanabe1989/emacs-claude-code) Human-in-the-environment platform for collaboration with LLM agents using Emacs
 
-- **SciTeX-Engine** ([emacs-claude-code](https://github.com/ywatanabe1989/emacs-claude-code))
-  - LLM agent system for Emacs enabling seamless human-AI collaboration
+- [**SciTeX-Scholar**](https://github.com/ywatanabe1989/SciTeX-Code/tree/main/src/scitex/scholar) Literature Search, Reference Manager, Knowledge Gap Identification, and Hypotheses Generation
 
-- **SciTeX-Code** ([SciTeX-Code](https://github.com/ywatanabe1989/SciTeX-Code))
-  - Standardized Python framework for scientific analysis and computation
+- [**SciTeX-Code**](https://github.com/ywatanabe1989/SciTeX-Code) Standardized and reusable Python scripts for scientific workflows
 
-- **SciTeX-Viz** ([SciTeX-Viz](https://github.com/ywatanabe1989/SciTeX-Viz))
-  - Python wrapper for SigmaPlot enabling programmatic scientific visualization
+- [**SciTeX-Viz**](https://github.com/ywatanabe1989/SciTeX-Viz) Python wrapper for SigmaPlot for publication-ready quality of graphing
 
-- **SciTeX-Scholar** ([SciTeX-Scholar](https://github.com/ywatanabe1989/SciTeX-Scholar))
-  - Literature Search, Knowledge gap identification, and hypotheses generation
+- [**SciTeX-Writer**](https://github.com/ywatanabe1989/SciTeX-Writer) Organized LaTeX compilation system with predefined directory structures and caption handling
 
-- **SciTeX-Writer** ([SciTeX-Writer](https://github.com/ywatanabe1989/SciTeX-Writer))
-  - Automated LaTeX compilation system with predefined tex, bibtex, table, and figure files
-
-- **SciTeX-Cloud** ([SciTeX-Cloud](https://github.com/ywatanabe1989/SciTeX-Cloud))
-  - Cloud platform for the SciTeX ecosystem (source code for https://scitex.ai built with Django)
+- [**SciTeX-Cloud**](https://github.com/ywatanabe1989/SciTeX-Cloud) Django source code of the cloud platform for SciTeX System (https://scitex.ai)
 
 ---
 
