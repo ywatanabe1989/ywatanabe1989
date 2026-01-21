@@ -29,7 +29,7 @@
 
 | Component | Description | Repository |
 |-----------|-------------|------------|
-| <img src="./docs/images/scitex-icon.png" width="20"> **SciTeX-Python** | Unified Python framework with 30+ modules for scientific workflows | [scitex-python](https://github.com/ywatanabe1989/scitex-code) |
+| **SciTeX-Python** | Unified Python framework with 30+ modules for scientific workflows | [scitex-python](https://github.com/ywatanabe1989/scitex-code) |
 | **SciTeX-Engine** | Human-in-the-environment AI collaboration platform using Emacs | [emacs-claude-code](https://github.com/ywatanabe1989/emacs-claude-code) |
 | **SciTeX-Cloud** | Django-based cloud platform for SciTeX | [scitex-cloud](https://github.com/ywatanabe1989/scitex-cloud) |
 | **SciTeX-Writer** | Organized LaTeX compilation with predefined structures | [scitex-writer](https://github.com/ywatanabe1989/scitex-writer) |
