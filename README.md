@@ -16,7 +16,11 @@
 ---
 
 <p align="center">
-  <img src="./docs/images/scitex-demo.gif" alt="SciTeX Demo" width="800">
+  <a href="https://scitex.ai/demos/watch/scitex-automated-research/">
+    <img src="./docs/images/scitex-demo.gif" alt="SciTeX Demo" width="800">
+  </a>
+  <br>
+  <a href="https://scitex.ai/demos/watch/scitex-automated-research/">▶ Watch Full Demo</a>
 </p>
 
 ---
@@ -25,12 +29,12 @@
 
 | Component | Description | Repository |
 |-----------|-------------|------------|
-| <img src="./docs/images/scitex-icon.png" width="20"> **SciTeX** | Unified Python framework with 30+ modules for scientific workflows | [scitex-code](https://github.com/ywatanabe1989/scitex-code) |
+| <img src="./docs/images/scitex-icon.png" width="20"> **SciTeX-Python** | Unified Python framework with 30+ modules for scientific workflows | [scitex-python](https://github.com/ywatanabe1989/scitex-code) |
 | **SciTeX-Engine** | Human-in-the-environment AI collaboration platform using Emacs | [emacs-claude-code](https://github.com/ywatanabe1989/emacs-claude-code) |
 | **SciTeX-Cloud** | Django-based cloud platform for SciTeX | [scitex-cloud](https://github.com/ywatanabe1989/scitex-cloud) |
 | **SciTeX-Writer** | Organized LaTeX compilation with predefined structures | [scitex-writer](https://github.com/ywatanabe1989/scitex-writer) |
 
-### Modules in SciTeX (pip install scitex)
+### Modules in SciTeX-Python (pip install scitex)
 
 | Category | Modules |
 |----------|---------|
@@ -84,3 +88,13 @@
 - [.dotfiles-public](https://github.com/ywatanabe1989/.dotfiles-public) - Linux configuration
 - [ai-ielts.app](https://ai-ielts.app/) - IELTS speaking/writing practice
 - [Programming advice (EN)](./advice-for-my-younger-myself-en.md) | [(JA)](./advice-for-my-younger-myself-ja.md)
+
+---
+
+<p align="center">
+  <a href="https://scitex.ai">
+    <img src="./docs/images/scitex-icon.png" alt="SciTeX" width="40">
+  </a>
+  <br>
+  <a href="https://scitex.ai">scitex.ai</a>
+</p>
