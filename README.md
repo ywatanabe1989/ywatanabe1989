@@ -1,11 +1,7 @@
 <p align="center">
   <a href="https://scitex.ai">
-    <img src="./docs/images/scitex-logo.png" alt="SciTeX Logo" width="300">
+    <img src="./docs/images/scitex-logo-navy-bg.png" alt="SciTeX Logo" width="400">
   </a>
-</p>
-
-<p align="center">
-  <strong>Automating Scientific Workflows with Human-in-the-Environment AI Integration</strong>
 </p>
 
 <p align="center">
@@ -34,7 +30,8 @@
 | **SciTeX-Cloud** | Django-based cloud platform for SciTeX | [scitex-cloud](https://github.com/ywatanabe1989/scitex-cloud) |
 | **SciTeX-Writer** | Organized LaTeX compilation with predefined structures | [scitex-writer](https://github.com/ywatanabe1989/scitex-writer) |
 
-### Modules in SciTeX-Python (pip install scitex)
+<details>
+<summary><b>Modules in SciTeX-Python (pip install scitex)</b></summary>
 
 | Category | Modules |
 |----------|---------|
@@ -47,6 +44,8 @@
 | **Other** | audio, capture, repro, benchmark, security, dt, dev, schema, bridge |
 
 > Previously separate packages (SciTeX-Viz, SciTeX-Scholar, SciTeX-IO, etc.) are now consolidated into the unified `scitex` package.
+
+</details>
 
 ---
 
@@ -62,7 +61,8 @@
 
 ---
 
-## Emacs Packages
+<details>
+<summary><b>Emacs Packages</b></summary>
 
 | Category | Package | Description |
 |----------|---------|-------------|
@@ -81,20 +81,25 @@
 | | [emacs-message](https://github.com/ywatanabe1989/emacs-message) | Toggle print/message |
 | | [emacs-gif-screencast](https://github.com/ywatanabe1989/emacs-gif-screencast) | GIF screencast & capture |
 
+</details>
+
 ---
 
-## Resources
+<details>
+<summary><b>Resources</b></summary>
 
 - [.dotfiles-public](https://github.com/ywatanabe1989/.dotfiles-public) - Linux configuration
 - [ai-ielts.app](https://ai-ielts.app/) - IELTS speaking/writing practice
 - [Programming advice (EN)](./advice-for-my-younger-myself-en.md) | [(JA)](./advice-for-my-younger-myself-ja.md)
 
+</details>
+
 ---
 
 <p align="center">
-  <a href="https://scitex.ai">
-    <img src="./docs/images/scitex-icon.png" alt="SciTeX" width="40">
-  </a>
+  <a href="https://scitex.ai" target="_blank"><img src="./docs/images/scitex-icon.png" alt="SciTeX" width="40"/></a>
   <br>
-  <a href="https://scitex.ai">scitex.ai</a>
+  ywatanabe@scitex.ai
 </p>
+
+<!-- EOF -->
