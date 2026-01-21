@@ -1,6 +1,6 @@
 # プログラミングを始めたばかりの過去の自分へ
 
-## あなたは数年後にこんな感じで遊び始めます
+## 参考：私の作業動画
 [動画 OneDrive link; 40 分](https://photos.onedrive.com/share/12F1169924695EF9!250373?cid=12F1169924695EF9&resId=12F1169924695EF9!250373&authkey=!AEcanzCk1fx4cYI&ithint=video&e=TjlgN1)
 
 ## 基本編
@@ -12,7 +12,7 @@
    - 壁を印刷したチートシートで埋めなさい
    - Ctrl + C の便利さを拡張しましょう
 
-## マニアック編 (プログラミングを仕事にしたい場合)
+## プログラミングを仕事にしたい場合
 
 ### 心がけ編
 
@@ -32,8 +32,12 @@
    - Linux の設定を継続的に改善しましょう [私の dotfiles リポジトリ](https://github.com/ywatanabe1989/.dotfiles-public)
 2. 関数をたくさん作りなさい
    - 自動販売機のようなものです、ボタンを押せばコーラが出る、毎回毎回コーラが出る、自販機の中がどうなっていたか気にしなくて済みます
-3. Emacs を学び、使用しなさい
-   - 私が知らないだけで Emacs（宗教です) でなくてもよいです、キーボードから手を離したくない、引きこもりコードに集中したい、という精神です
+3. Emacs を学びなさい
+   - 私が知らないだけで Emacs（宗教です) でなくてもよいです。以下の特徴がある良いと思います。
+      - キーボード (ホームポジション) で多くの作業ができる
+      - リモートのファイルを直接編集できる (TRAMP)
+      - Git との連携が用意 (Magit, smerge-mode)
+      - 環境をカスタマイズできる
    - チュートリアルから始めなさい `M-x help-with-tutorial`
      - Emacsを起動し、`M-x help-with-tutorial RET` （Meta (Alt or Esc) キー + x、その後 'help-with-tutorial' と入力し Enter）
    - [SystemCrafters YouTube チャンネル](https://www.youtube.com/playlist?list=PLEoMzSkcN8oPH1au7H6B7bBJ4ZO7BXjSZ)
