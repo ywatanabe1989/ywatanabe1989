@@ -71,16 +71,23 @@ Standalone packages usable independently or via unified `scitex` interface.
 | | [emacs-llm](https://github.com/ywatanabe1989/emacs-llm) | LLM chat client in Elisp |
 | | [genai](https://github.com/ywatanabe1989/genai) | LLM chat (Python + Elisp) |
 | | [emacs-whisper-live](https://github.com/ywatanabe1989/emacs-whisper-live) | Real-time speech recognition |
+| | [emacs-mcp-server](https://github.com/ywatanabe1989/emacs-mcp-server) | MCP server for Emacs |
 | **Dev** | [elisp-test](https://github.com/ywatanabe1989/elisp-test) | Testing framework for Elisp |
 | | [elisp-linter](https://github.com/ywatanabe1989/elisp-linter) | Linter for Elisp |
 | | [emacs-python-import-manager](https://github.com/ywatanabe1989/emacs-python-import-manager) | Python import management |
+| | [emacs-python-config](https://github.com/ywatanabe1989/emacs-python-config) | Python environment configuration |
+| | [emacs-monitor-repository](https://github.com/ywatanabe1989/emacs-monitor-repository) | Git repository monitoring |
 | **UI** | [emacs-tab-manager](https://github.com/ywatanabe1989/emacs-tab-manager) | Tab management |
 | | [emacs-buffer-navigation](https://github.com/ywatanabe1989/emacs-buffer-navigation) | Buffer navigation |
+| | [emacs-recentf-project](https://github.com/ywatanabe1989/emacs-recentf-project) | Project-aware recent files |
 | | [emacs-spinner](https://github.com/ywatanabe1989/emacs-spinner) | Spinner animations |
+| | [emacs-notification](https://github.com/ywatanabe1989/emacs-notification) | Desktop notifications |
 | **Tools** | [emacs-header-footer-manager](https://github.com/ywatanabe1989/emacs-header-footer-manager) | Header/footer management |
 | | [emacs-slack](https://github.com/ywatanabe1989/emacs-slack) | Slack integration |
 | | [emacs-message](https://github.com/ywatanabe1989/emacs-message) | Toggle print/message |
 | | [emacs-gif-screencast](https://github.com/ywatanabe1989/emacs-gif-screencast) | GIF screencast & capture |
+| | [emacs-semantic-search](https://github.com/ywatanabe1989/emacs-semantic-search) | Semantic code search |
+| | [emacs-password-manager](https://github.com/ywatanabe1989/emacs-password-manager) | Password management |
 
 </details>
 
