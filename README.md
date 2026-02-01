@@ -1,6 +1,12 @@
+<!-- ---
+!-- Timestamp: 2026-02-02 05:06:24
+!-- Author: ywatanabe
+!-- File: /home/ywatanabe/proj/ywatanabe1989/README.md
+!-- --- -->
+
 <p align="center">
   <a href="https://scitex.ai">
-    <img src="./docs/images/scitex-logo-navy-bg.png" alt="SciTeX Logo" width="400">
+    <img src="./docs/images/scitex-logo-blue-cropped.png" alt="SciTeX Logo" width="400">
   </a>
 </p>
 
@@ -15,8 +21,6 @@
   <a href="https://scitex.ai/demos/watch/scitex-automated-research/">
     <img src="./docs/images/scitex-demo.gif" alt="SciTeX Demo" width="800">
   </a>
-  <br>
-  <a href="https://scitex.ai/demos/watch/scitex-automated-research/">▶ Watch Full Demo</a>
 </p>
 
 ---
@@ -28,22 +32,19 @@
 | **SciTeX-Python** | Unified Python framework with 30+ modules for scientific workflows | [scitex-python](https://github.com/ywatanabe1989/scitex-python) |
 | **SciTeX-Engine** | Human-in-the-environment AI collaboration platform using Emacs | [emacs-claude-code](https://github.com/ywatanabe1989/emacs-claude-code) |
 | **SciTeX-Cloud** | Django-based cloud platform for SciTeX | [scitex-cloud](https://github.com/ywatanabe1989/scitex-cloud) |
-| **SciTeX-Writer** | Organized LaTeX compilation with predefined structures | [scitex-writer](https://github.com/ywatanabe1989/scitex-writer) |
 
 <details>
-<summary><b>Modules in SciTeX-Python (pip install scitex)</b></summary>
+<summary><b>Integrated Packages</b></summary>
 
-| Category | Modules |
-|----------|---------|
-| **Core** | io, path, str, dict, types, config, utils, decorators, logging, gen |
-| **Data Science** | stats, pd, linalg, plt, dsp |
-| **AI/ML** | ai, nn, torch |
-| **System** | cli, sh, git, session, resource, db |
-| **Research** | writer, tex, msword, scholar, diagram |
-| **Web** | web, browser |
-| **Other** | audio, capture, repro, benchmark, security, dt, dev, schema, bridge |
+Standalone packages usable independently or via unified `scitex` interface.
 
-> Previously separate packages (SciTeX-Viz, SciTeX-Scholar, SciTeX-IO, etc.) are now consolidated into the unified `scitex` package.
+| Package | scitex Module | Description |
+|---------|---------------|-------------|
+| [figrecipe](https://github.com/ywatanabe1989/figrecipe) | `scitex.plt` | Publication-ready matplotlib figures |
+| [scitex-writer](https://github.com/ywatanabe1989/scitex-writer) | `scitex.writer` | Organized LaTeX manuscript compilation |
+| [crossref-local](https://github.com/ywatanabe1989/crossref-local) | `scitex.scholar.crossref` | Local CrossRef database (167M+ papers) |
+| [openalex-local](https://github.com/ywatanabe1989/openalex-local) | `scitex.scholar.openalex` | Local OpenAlex database (250M+ papers) |
+| [socialia](https://github.com/ywatanabe1989/socialia) | `scitex.social` | Social media posting (Twitter, LinkedIn) |
 
 </details>
 
@@ -51,13 +52,13 @@
 
 ## Scientific Research Projects
 
-| Project | Description |
-|---------|-------------|
-| [EEG Dementia Classification](https://github.com/yanagisawa-lab/eeg-dementia-classification) | Dementia subtypes and MCI detection using EEG data |
-| [Hippocampal Ripple Detector](https://github.com/ywatanabe1989/towards-threshold-invariance-in-defining-hippocampal-ripples) | CNN-based sharp-wave ripples detector ([pip](https://github.com/ywatanabe1989/ripple_detector_CNN)) |
-| [Ripple Working Memory](https://github.com/ywatanabe1989/ripple-wm-code) | Sharp-wave ripples during working memory in humans |
-| [GPAC](https://github.com/ywatanabe1989/gpac) | GPU-accelerated phase-amplitude coupling |
-| [Intestelligence](https://github.com/ywatanabe1989/intestelligence) | Pharmacological neural network using intestine data |
+| Title | Code |
+|-------|------|
+| A deep learning model for the detection of various dementia and MCI pathologies based on resting-state electroencephalography data | [eeg-dementia-classification](https://github.com/yanagisawa-lab/eeg-dementia-classification) |
+| Towards threshold invariance in defining hippocampal ripples | [Code](https://github.com/ywatanabe1989/towards-threshold-invariance-in-defining-hippocampal-ripples), [pip](https://github.com/ywatanabe1989/ripple_detector_CNN) |
+| Hippocampal neural fluctuations during working memory | [ripple-wm-code](https://github.com/ywatanabe1989/ripple-wm-code) |
+| gPAC: GPU-accelerated phase-amplitude coupling analysis | [gpac](https://github.com/ywatanabe1989/gpac) |
+| Intestelligence: A pharmacological neural network using intestine data | [intestelligence](https://github.com/ywatanabe1989/intestelligence) |
 
 ---
 
