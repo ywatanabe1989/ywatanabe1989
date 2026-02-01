@@ -86,7 +86,6 @@ Standalone packages usable independently or via unified `scitex` interface.
 | | [emacs-slack](https://github.com/ywatanabe1989/emacs-slack) | Slack integration |
 | | [emacs-message](https://github.com/ywatanabe1989/emacs-message) | Toggle print/message |
 | | [emacs-gif-screencast](https://github.com/ywatanabe1989/emacs-gif-screencast) | GIF screencast & capture |
-| | [emacs-semantic-search](https://github.com/ywatanabe1989/emacs-semantic-search) | Semantic code search |
 | | [emacs-password-manager](https://github.com/ywatanabe1989/emacs-password-manager) | Password management |
 
 </details>
