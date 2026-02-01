@@ -1,5 +1,5 @@
 <!-- ---
-!-- Timestamp: 2026-02-02 05:06:24
+!-- Timestamp: 2026-02-02 05:21:34
 !-- Author: ywatanabe
 !-- File: /home/ywatanabe/proj/ywatanabe1989/README.md
 !-- --- -->
@@ -15,7 +15,12 @@
   <a href="https://pypi.org/project/scitex/">pip install scitex</a>
 </p>
 
+
+## SciTeX Ecosystem
+
 ---
+
+(Demo) Automated Research with SciTeX MCP Server in 40 min. Literature Search → Analysis → Graphing → Manuscript → Revision Letter
 
 <p align="center">
   <a href="https://scitex.ai/demos/watch/scitex-automated-research/">
@@ -24,8 +29,6 @@
 </p>
 
 ---
-
-## SciTeX Ecosystem
 
 | Component | Description | Repository |
 |-----------|-------------|------------|
