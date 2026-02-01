@@ -97,7 +97,7 @@ Standalone packages usable independently or via unified `scitex` interface.
 
 - [.dotfiles-public](https://github.com/ywatanabe1989/.dotfiles-public) - Linux configuration
 - [ai-ielts.app](https://ai-ielts.app/) - IELTS speaking/writing practice
-- [Programming advice (EN)](./advice-for-my-younger-myself-en.md) | [(JA)](./advice-for-my-younger-myself-ja.md)
+- [Programming advice (EN)](./docs/advice-for-my-younger-myself-en.md) | [(JA)](./docs/advice-for-my-younger-myself-ja.md)
 
 </details>
 

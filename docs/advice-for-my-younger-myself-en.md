@@ -8,7 +8,8 @@
 1. Master Google Search
    - The challenges you face may have already been solved by someone
 2. Actively utilize AI
-3. Learn keyboard shortcuts
+   - [Emacs package genai.el](https://github.com/ywatanabe1989/genai/)
+4. Learn keyboard shortcuts
    - Cover your walls with printed cheat sheets
    - Extend the convenience of Ctrl + C
 
