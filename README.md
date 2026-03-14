@@ -34,7 +34,7 @@
 | **SciTeX-Cloud** | Django-based, self-hostable browser application for scientific research | [scitex-cloud](https://github.com/ywatanabe1989/scitex-cloud) |
 
 <details>
-<summary><b>Integrated Packages</b></summary>
+<summary><b>Downstream, Standalone Packages</b></summary>
 
 Standalone packages usable independently or via unified `scitex` interface.
 
