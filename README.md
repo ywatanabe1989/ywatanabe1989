@@ -76,8 +76,7 @@ Standalone packages usable independently or via unified `scitex` interface.
 
 ---
 
-<details>
-<summary><b>Emacs Packages</b></summary>
+## Emacs Packages
 
 | Category | Package | Description |
 |----------|---------|-------------|
@@ -100,20 +99,17 @@ Standalone packages usable independently or via unified `scitex` interface.
 | | [emacs-gif-screencast](https://github.com/ywatanabe1989/emacs-gif-screencast) | GIF screencast & capture |
 | | [emacs-password-manager](https://github.com/ywatanabe1989/emacs-password-manager) | GPG-encrypted password manager |
 
-</details>
-
 ---
 
-<details>
-<summary><b>Resources</b></summary>
+## Resources
 
-- [agents](https://github.com/ywatanabe1989/agents) - Sync MCP servers, skills, and instructions across AI coding tools
-- [automated-research-demo](https://github.com/ywatanabe1989/automated-research-demo) - Demo: AI-driven autonomous research from data to manuscript
-- [.dotfiles-public](https://github.com/ywatanabe1989/.dotfiles-public) - Linux configuration
-- [ai-ielts.app](https://ai-ielts.app/) - IELTS speaking/writing practice
-- [Programming advice (EN)](./docs/advice-for-my-younger-myself-en.md) | [(JA)](./docs/advice-for-my-younger-myself-ja.md)
-
-</details>
+| Resource | Description |
+|----------|-------------|
+| [agents](https://github.com/ywatanabe1989/agents) | Sync MCP servers, skills, and instructions across AI coding tools |
+| [automated-research-demo](https://github.com/ywatanabe1989/automated-research-demo) | Demo: AI-driven autonomous research from data to manuscript |
+| [.dotfiles-public](https://github.com/ywatanabe1989/.dotfiles-public) | Linux configuration |
+| [ai-ielts.app](https://ai-ielts.app/) | IELTS speaking/writing practice |
+| [Programming advice (EN)](./docs/advice-for-my-younger-myself-en.md) / [(JA)](./docs/advice-for-my-younger-myself-ja.md) | Tips for younger self |
 
 ---
 
