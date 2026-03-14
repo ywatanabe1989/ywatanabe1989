@@ -4,6 +4,8 @@
 !-- File: /home/ywatanabe/proj/ywatanabe1989/README.md
 !-- --- -->
 
+## SciTeX Ecosystem
+
 <p align="center">
   <a href="https://scitex.ai">
     <img src="./docs/images/scitex-logo-blue-cropped.png" alt="SciTeX Logo" width="400">
@@ -14,11 +16,6 @@
   <a href="https://scitex.ai">scitex.ai</a> |
   <a href="https://pypi.org/project/scitex/">pip install scitex</a>
 </p>
-
-
-## SciTeX Ecosystem
-
----
 
 (Demo) Automated Research with SciTeX MCP Server in 40 min. Literature Search → Analysis → Graphing → Manuscript → Revision Letter
 
