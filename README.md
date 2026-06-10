@@ -33,6 +33,57 @@
 | **SciTeX-Engine** | Emacs interface for Claude Code with auto-response, vterm integration, and session management | [emacs-claude-code](https://github.com/ywatanabe1989/emacs-claude-code) |
 | **SciTeX-Cloud** | Django-based, self-hostable browser application for scientific research | [scitex-cloud](https://github.com/ywatanabe1989/scitex-cloud) |
 
+### Architecture — two orthogonal axes
+
+The ecosystem is organised as a strict 3-layer library cascade (Axis 1) plus orthogonal dev-tooling and platform packages (Axis 2). Dependencies flow one way only — upstream imports middle imports downstream, never the reverse. Full rules in [scitex-dev `01_upstream-and-downstream` skill](https://github.com/ywatanabe1989/scitex-dev/blob/main/src/scitex_dev/_skills/general/01_ecosystem/01_upstream-and-downstream.md).
+
+```mermaid
+flowchart TD
+    subgraph CASCADE ["Axis 1 — Library cascade (deps flow downward)"]
+        direction TB
+
+        subgraph UP ["▲ Upstream — orchestration only, no logic of its own"]
+            U["scitex<br/><i>umbrella — re-exports + @session</i>"]
+        end
+
+        subgraph MID ["■ Middle — shared infrastructure, wraps via plugin registry"]
+            M1[scitex-io]
+            M2[scitex-stats]
+            M3[scitex-app]
+            M4[scitex-ui]
+            M5[scitex-audio]
+            M6[scitex-notebook]
+        end
+
+        subgraph DOWN ["▼ Downstream — standalone apps + utility leaves (own logic, unit-tested)"]
+            D1[figrecipe]
+            D2[scitex-writer]
+            D3[scitex-scholar]
+            D4[scitex-clew]
+            D5[scitex-dataset]
+            D6[scitex-browser]
+            D7["… 50+ utility &amp; domain peers"]
+        end
+
+        UP --> MID --> DOWN
+    end
+
+    subgraph AX2A ["Axis 2A — Dev tooling &amp; orchestration"]
+        T1[scitex-dev]
+        T2[scitex-orochi]
+        T3[scitex-agent-container]
+        T4[scitex-container]
+    end
+
+    subgraph AX2B ["Axis 2B — User-facing platform"]
+        P1[scitex-cloud]
+        P2[scitex-hub]
+    end
+
+    AX2A -. manages .-> CASCADE
+    AX2B -. hosts .-> DOWN
+```
+
 <details>
 <summary><b>Downstream, Standalone Packages</b> (67 packages on PyPI)</summary>
 
