@@ -1,5 +1,5 @@
 <!-- ---
-!-- Timestamp: 2026-03-14
+!-- Timestamp: 2026-06-10
 !-- Author: ywatanabe
 !-- File: /home/ywatanabe/proj/ywatanabe1989/README.md
 !-- --- -->
@@ -34,28 +34,121 @@
 | **SciTeX-Cloud** | Django-based, self-hostable browser application for scientific research | [scitex-cloud](https://github.com/ywatanabe1989/scitex-cloud) |
 
 <details>
-<summary><b>Downstream, Standalone Packages</b></summary>
+<summary><b>Downstream, Standalone Packages</b> (67 packages on PyPI)</summary>
 
-Standalone packages usable independently or via unified `scitex` interface.
+Standalone packages usable independently or via the unified `scitex` umbrella. Each row's **scitex Module** column shows the alias the package mounts under (`import scitex.<short>`); a few peers carry more than one alias because they absorbed an earlier standalone.
+
+**I/O & data**
 
 | Package | scitex Module | Description |
 |---------|---------------|-------------|
-| [figrecipe](https://github.com/ywatanabe1989/figrecipe) | `scitex.plt` | Reproducible, publication-ready scientific figures with mm-precision layouts and 47 plot types |
-| [scitex-stats](https://github.com/ywatanabe1989/scitex-stats) | `scitex.stats` | Publication-ready statistical testing with 23 tests, effect sizes, and power analysis |
 | [scitex-io](https://github.com/ywatanabe1989/scitex-io) | `scitex.io` | Universal scientific data I/O with plugin registry (30+ formats) |
+| [scitex-db](https://github.com/ywatanabe1989/scitex-db) | `scitex.db` | Database utilities for SQLite3 and PostgreSQL |
+| [scitex-pd](https://github.com/ywatanabe1989/scitex-pd) | `scitex.pd` | Pandas helpers (force_df, melt_cols, find_pval, slice, sort, …) |
+| [scitex-dataset](https://github.com/ywatanabe1989/scitex-dataset) | `scitex.dataset` | Multi-domain scientific dataset fetcher (OpenNeuro, DANDI, PhysioNet, GEO, ChEMBL, ClinicalTrials) |
+| [scitex-msword](https://github.com/ywatanabe1989/scitex-msword) | `scitex.msword` | `.docx` reader/writer with journal-style profiles (MDPI, IEEE, Springer, Elsevier, RESNA, IOP) |
+| [scitex-notebook](https://github.com/ywatanabe1989/scitex-notebook) | `scitex.notebook` | Jupyter notebook verification, compilation, and DAG-based conversion |
+| [scitex-tex](https://github.com/ywatanabe1989/scitex-tex) | `scitex.tex` | LaTeX helpers — export to `.tex`, render preview images, vector formatting |
+
+**Statistics, ML, signals & math**
+
+| Package | scitex Module | Description |
+|---------|---------------|-------------|
+| [scitex-stats](https://github.com/ywatanabe1989/scitex-stats) | `scitex.stats` | Publication-ready statistical testing with 23 tests, effect sizes, power analysis |
+| [scitex-ml](https://github.com/ywatanabe1989/scitex-ml) | `scitex.ml` | Machine learning, classification, and training utilities |
+| [scitex-nn](https://github.com/ywatanabe1989/scitex-nn) | `scitex.nn` | Neural network building blocks (BNet, Hilbert, PAC, Wavelet, filters) |
+| [scitex-dsp](https://github.com/ywatanabe1989/scitex-dsp) | `scitex.dsp` | Digital signal processing (PAC, Hilbert, Wavelet, filters, demo signals) |
+| [scitex-linalg](https://github.com/ywatanabe1989/scitex-linalg) | `scitex.linalg`, `scitex.torch` | Linear-algebra helpers (distance, geometric median, cosine, nannorm) |
+| [scitex-math](https://github.com/ywatanabe1989/scitex-math) | `scitex.math` | Mathematical utilities (parity helpers, etc.) |
+| [scitex-benchmark](https://github.com/ywatanabe1989/scitex-benchmark) | `scitex.benchmark` | Performance benchmarking, runtime monitoring, and profiling |
+
+**Visualization**
+
+| Package | scitex Module | Description |
+|---------|---------------|-------------|
+| [figrecipe](https://github.com/ywatanabe1989/figrecipe) | `scitex.plt`, `scitex.fig`, `scitex.diagram` | Reproducible, publication-ready matplotlib with mm-precision layouts and 47 plot types |
+| [scitex-plt](https://github.com/ywatanabe1989/scitex-plt) | `scitex.plt` | Plotting alias for `figrecipe` |
+| [scitex-cv](https://github.com/ywatanabe1989/scitex-cv) | `scitex.cv` | cv2/Pillow image processing (load/save, resize/rotate/crop, blur/sharpen/edge, drawing) |
+| [scitex-capture](https://github.com/ywatanabe1989/scitex-capture) | `scitex.capture` | Session-based screen capture (screenshots, multi-frame GIFs, grid overlays) |
+
+**Scholarly literature & writing**
+
+| Package | scitex Module | Description |
+|---------|---------------|-------------|
+| [scitex-scholar](https://github.com/ywatanabe1989/scitex-scholar) | `scitex.scholar` | Scientific paper search, enrichment, download, and management |
+| [crossref-local](https://github.com/ywatanabe1989/crossref-local) | `scitex.scholar.crossref` | Local CrossRef database with 167M+ works and full-text search |
+| [openalex-local](https://github.com/ywatanabe1989/openalex-local) | `scitex.scholar.openalex` | Local OpenAlex database with 284M+ works and semantic search |
 | [scitex-writer](https://github.com/ywatanabe1989/scitex-writer) | `scitex.writer` | LaTeX manuscript compilation with automatic versioning and diff generation |
-| [scitex-scholar](https://github.com/ywatanabe1989/SciTeX-Scholar) | `scitex.scholar` | Scientific literature search and analysis |
-| [crossref-local](https://github.com/ywatanabe1989/crossref-local) | `scitex.scholar.crossref` | Local CrossRef database with 167M+ papers and full-text search |
-| [openalex-local](https://github.com/ywatanabe1989/openalex-local) | `scitex.scholar.openalex` | Local OpenAlex database with 284M+ papers and semantic search |
-| [scitex-dataset](https://github.com/ywatanabe1989/scitex-dataset) | `scitex.dataset` | Unified API for neuroscience datasets (OpenNeuro, DANDI, PhysioNet) |
+| [scitex-web](https://github.com/ywatanabe1989/scitex-web) | `scitex.web` | Web scraping, PubMed search, URL summarization helpers |
+| [scitex-browser](https://github.com/ywatanabe1989/scitex-browser) | `scitex.browser` | Browser automation for scholarly paper access |
+
+**Knowledge & domain**
+
+| Package | scitex Module | Description |
+|---------|---------------|-------------|
 | [scitex-clew](https://github.com/ywatanabe1989/scitex-clew) | `scitex.clew` | Verifiable knowledge graph for scientific experiments |
-| [scitex-linter](https://github.com/ywatanabe1989/scitex-linter) | `scitex.linter` | AST-based linter enforcing reproducible research patterns |
-| [scitex-audio](https://github.com/ywatanabe1989/scitex-audio) | `scitex.audio` | Text-to-Speech with multiple backend fallback |
-| [socialia](https://github.com/ywatanabe1989/socialia) | `scitex.social` | Unified social media management |
+| [scitex-seizure-metrics](https://github.com/ywatanabe1989/scitex-seizure-metrics) | `scitex.seizure_metrics` | Standardised evaluation metrics for epileptic seizure detection and forecasting |
+
+**Systems, infrastructure & ops**
+
+| Package | scitex Module | Description |
+|---------|---------------|-------------|
 | [scitex-container](https://github.com/ywatanabe1989/scitex-container) | `scitex.container` | Unified container management for Apptainer and Docker |
-| [scitex-tunnel](https://github.com/ywatanabe1989/scitex-tunnel) | `scitex.tunnel` | Persistent SSH reverse tunnel for NAT traversal |
-| [scitex-dev](https://github.com/ywatanabe1989/scitex-dev) | `scitex.dev` | Shared developer utilities for the SciTeX ecosystem |
+| [scitex-ssh](https://github.com/ywatanabe1989/scitex-ssh) | `scitex.ssh`, `scitex.tunnel` | SSH primitives (exec/copy/attach/tunnel) with per-host allowlist |
+| [scitex-hpc](https://github.com/ywatanabe1989/scitex-hpc) | `scitex.hpc` | Generic SLURM dispatch (srun, sbatch, sync, poll, fetch) |
+| [scitex-hub](https://github.com/ywatanabe1989/scitex-hub) | `scitex.cloud`, `scitex.module`, `scitex.project` | SciTeX Hub deployment and management CLI |
 | [scitex-app](https://github.com/ywatanabe1989/scitex-app) | `scitex.app` | Write-once interface for local + cloud apps |
+| [scitex-ui](https://github.com/ywatanabe1989/scitex-ui) | `scitex.ui` | Shared frontend UI components for the ecosystem |
+| [scitex-audit](https://github.com/ywatanabe1989/scitex-audit) | `scitex.audit` | Security audit orchestrator (bandit, shellcheck, pip-audit, GitHub alerts) |
+| [scitex-notification](https://github.com/ywatanabe1989/scitex-notification) | `scitex.notification`, `scitex.notify` | Multi-backend notification system |
+| [scitex-agent-container](https://github.com/ywatanabe1989/scitex-agent-container) | `scitex.agent_container` | Declarative YAML framework for managing AI coding agent instances |
+| [scitex-orochi](https://github.com/ywatanabe1989/scitex-orochi) | `scitex.orochi` | Agent communication hub |
+
+**Developer workflow**
+
+| Package | scitex Module | Description |
+|---------|---------------|-------------|
+| [scitex-dev](https://github.com/ywatanabe1989/scitex-dev) | `scitex.dev` | Shared developer utilities and AST linter (absorbs `scitex-linter`) |
+| [scitex-template](https://github.com/ywatanabe1989/scitex-template) | `scitex.template` | Project template cloner + code snippet library |
+| [scitex-config](https://github.com/ywatanabe1989/scitex-config) | `scitex.config` | Configuration + path management (direct → yaml → env → default cascade) |
+| [scitex-logging](https://github.com/ywatanabe1989/scitex-logging) | `scitex.logging`, `scitex.errors` | Logging utilities |
+| [scitex-events](https://github.com/ywatanabe1989/scitex-events) | `scitex.events` | Async event bus (file-backed, JSON Lines) |
+| [scitex-decorators](https://github.com/ywatanabe1989/scitex-decorators) | `scitex.decorators` | numpy/torch/pandas/xarray type converters, caching, batching, deprecation |
+| [scitex-types](https://github.com/ywatanabe1989/scitex-types) | `scitex.types` | Scientific type definitions (ArrayLike, ColorLike) and validation |
+| [scitex-path](https://github.com/ywatanabe1989/scitex-path) | `scitex.path` | Scientific project path utilities (find, split, symlink, versioning) |
+| [scitex-repro](https://github.com/ywatanabe1989/scitex-repro) | `scitex.repro` | Reproducibility utilities (random state, timestamps, hashing) |
+| [scitex-introspect](https://github.com/ywatanabe1989/scitex-introspect) | `scitex.introspect` | IPython-style introspection (signatures, members, source, call graphs) |
+| [scitex-context](https://github.com/ywatanabe1989/scitex-context) | `scitex.context` | Execution-context detection (script vs Jupyter vs IPython) + stdout/stderr suppression |
+| [scitex-session](https://github.com/ywatanabe1989/scitex-session) | `scitex.session` | `@session` decorator + lifecycle (auto-CLI, output dir tree, RandomStateManager) |
+| [scitex-compat](https://github.com/ywatanabe1989/scitex-compat) | `scitex.compat` | Backward compatibility shims and deprecation wrappers |
+| [scitex-core](https://github.com/ywatanabe1989/scitex-core) | `scitex.core` | Core infrastructure and fundamental utilities |
+| [scitex-parallel](https://github.com/ywatanabe1989/scitex-parallel) | `scitex.parallel` | Thread/process pool parallel execution utilities |
+| [scitex-repl](https://github.com/ywatanabe1989/scitex-repl) | `scitex.repl` | Interactive REPL helpers (embed, less, paste) |
+| [scitex-resource](https://github.com/ywatanabe1989/scitex-resource) | `scitex.resource` | System resource info, processor usage logging, RAM limit |
+| [scitex-git](https://github.com/ywatanabe1989/scitex-git) | `scitex.git` | Git + GitHub Actions utilities (clone, branch, commit, retry, gh secrets) |
+| [scitex-todo](https://github.com/ywatanabe1989/scitex-todo) | `scitex.todo` | Canonical YAML task store with pluggable adapters (mermaid dependency graphs) |
+| [scitex-genai](https://github.com/ywatanabe1989/scitex-genai) | `scitex.genai` | Modality-organised generative-AI provider abstraction (LLM, agents, image/audio/video) |
+
+**Text, dates & misc utilities**
+
+| Package | scitex Module | Description |
+|---------|---------------|-------------|
+| [scitex-str](https://github.com/ywatanabe1989/scitex-str) | `scitex.str` | Text processing (LaTeX formatting, colored output, string parsing, plot text) |
+| [scitex-dict](https://github.com/ywatanabe1989/scitex-dict) | `scitex.dict` | Dictionary utilities (DotDict, safe_merge) |
+| [scitex-gen](https://github.com/ywatanabe1989/scitex-gen) | `scitex.gen` | General utilities (caching, env detection, normalization, mat→npy, xml→dict, TimeStamper) |
+| [scitex-etc](https://github.com/ywatanabe1989/scitex-etc) | `scitex.etc`, `scitex.media` | Cross-cutting utilities (interactive keyboard input, parameter-grid iteration, regex, media display) |
+| [scitex-datetime](https://github.com/ywatanabe1989/scitex-datetime) | `scitex.datetime` | Datetime helpers (linspace, normalize_timestamp, format helpers) |
+| [scitex-gists](https://github.com/ywatanabe1989/scitex-gists) | `scitex.gists` | SigmaPlot macro conversion utilities for matplotlib |
+| [scitex-audio](https://github.com/ywatanabe1989/scitex-audio) | `scitex.audio` | Text-to-Speech with multiple backends |
+| [scitex-os](https://github.com/ywatanabe1989/scitex-os) | `scitex.os` | Host check + safe file move |
+| [scitex-sh](https://github.com/ywatanabe1989/scitex-sh) | `scitex.sh` | Safe subprocess wrapper (list-only, no shell injection) with stream/timeout support |
+
+**Social & meta-tooling**
+
+| Package | scitex Module | Description |
+|---------|---------------|-------------|
+| [socialia](https://github.com/ywatanabe1989/socialia) | `scitex.social` | Unified social media management (posting, analytics, insights) |
+| [newb](https://github.com/ywatanabe1989/newb) | — | "A fresh AI agent tries to use your package" — pytest-style; if it succeeds, your docs work |
 
 </details>
 
