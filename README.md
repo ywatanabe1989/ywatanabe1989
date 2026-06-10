@@ -87,7 +87,6 @@ Sourced from [`scitex_dev._ecosystem._registry.ECOSYSTEM`](https://github.com/yw
 |---------|---------------|-------|--------------------------------|-------------|
 | [scitex](https://github.com/ywatanabe1989/scitex) | — *(umbrella)* | L5 | *re-exports the full ecosystem (≈40 peers)* | A comprehensive Python library for scientific computing and data analysis |
 | [scitex-audio](https://github.com/ywatanabe1989/scitex-audio) | `scitex.audio` | L4 | dev | Text-to-Speech with multiple backends for scientific workflows |
-| [scitex-audit](https://github.com/ywatanabe1989/scitex-audit) | `scitex.audit` | L4 | — | Security audit orchestrator (bandit, shellcheck, pip-audit, GitHub alerts) |
 | [scitex-clew](https://github.com/ywatanabe1989/scitex-clew) | `scitex.clew` | L4 | — | Verifiable knowledge graph for scientific experiments |
 | [scitex-notification](https://github.com/ywatanabe1989/scitex-notification) | `scitex.notification`, `scitex.notify` | L4 | dev | Multi-backend notification system for SciTeX |
 | [scitex-app](https://github.com/ywatanabe1989/scitex-app) | `scitex.app` | L3 | — | SciTeX App SDK — write-once interface for local + cloud apps |
@@ -130,13 +129,11 @@ Sourced from [`scitex_dev._ecosystem._registry.ECOSYSTEM`](https://github.com/yw
 | [scitex-compat](https://github.com/ywatanabe1989/scitex-compat) | `scitex.compat` | L0 | — | Backward compatibility shims and deprecation wrappers |
 | [scitex-config](https://github.com/ywatanabe1989/scitex-config) | `scitex.config` | L0 | — | Config + path management (direct → yaml → env → default cascade; per-package state-dir resolver) |
 | [scitex-context](https://github.com/ywatanabe1989/scitex-context) | `scitex.context` | L0 | — | Execution-context detection (script vs Jupyter vs IPython) + stdout/stderr suppression |
-| [scitex-core](https://github.com/ywatanabe1989/scitex-core) | `scitex.core` | L0 | — | Core infrastructure and fundamental utilities |
 | [scitex-datetime](https://github.com/ywatanabe1989/scitex-datetime) | `scitex.datetime` | L0 | dev | Datetime helpers (linspace, normalize_timestamp, format helpers) |
 | [scitex-decorators](https://github.com/ywatanabe1989/scitex-decorators) | `scitex.decorators` | L0 | compat, config, dev | Decorator library — numpy/torch/pandas/xarray type converters, caching, batching, deprecation |
 | [scitex-dev](https://github.com/ywatanabe1989/scitex-dev) | `scitex.dev` | L0 | newb, config, logging | Shared developer utilities and AST linter (absorbs `scitex-linter`) |
 | [scitex-dict](https://github.com/ywatanabe1989/scitex-dict) | `scitex.dict` | L0 | dev | Dictionary utilities (DotDict, safe_merge) |
 | [scitex-etc](https://github.com/ywatanabe1989/scitex-etc) | `scitex.etc`, `scitex.media` | L0 | — | Cross-cutting utilities (interactive keyboard input, parameter-grid iteration, regex, media display) |
-| [scitex-gen](https://github.com/ywatanabe1989/scitex-gen) | `scitex.gen` | L0 | context, decorators, dev, dict, introspect, os, session, sh, stats, str | General utilities (caching, env detection, normalization, mat→npy, xml→dict, TimeStamper) |
 | [scitex-gists](https://github.com/ywatanabe1989/scitex-gists) | `scitex.gists` | L0 | — | SigmaPlot macro conversion utilities for matplotlib |
 | [scitex-introspect](https://github.com/ywatanabe1989/scitex-introspect) | `scitex.introspect` | L0 | — | IPython-style introspection (signatures, docstrings, members, source, call graphs, class hierarchy) |
 | [scitex-logging](https://github.com/ywatanabe1989/scitex-logging) | `scitex.logging`, `scitex.errors` | L0 | — | Logging utilities |
