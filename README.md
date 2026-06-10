@@ -14,7 +14,7 @@
 
 <p align="center">
   <a href="https://scitex.ai">scitex.ai</a> |
-  <a href="https://pypi.org/project/scitex/">pip install scitex</a>
+  <a href="https://pypi.org/project/scitex/">uv pip install scitex[all]</a>
 </p>
 
 (Demo) Automated Research with SciTeX MCP Server in 40 min. Literature Search → Analysis → Graphing → Manuscript → Revision Letter
@@ -30,11 +30,10 @@
 | Component | Description | Repository |
 |-----------|-------------|------------|
 | **SciTeX-Python** | Modular Python toolkit for scientific research with 200+ MCP tools | [scitex-python](https://github.com/ywatanabe1989/scitex-python) |
-| **SciTeX-Cloud** | Django-based, self-hostable browser application for scientific research | [scitex-cloud](https://github.com/ywatanabe1989/scitex-cloud) |
+| **SciTeX-Hub** (Live at <a href="https://scitex.ai">scitex.ai</a>) | Django-based, self-hostable browser application for scientific research | [scitex-hub](https://github.com/ywatanabe1989/scitex-hub) |
 
 ### Architecture — 6-layer dependency cascade (+ orthogonal platform peers)
 
-Separation-of-Concerns rule: **higher layer may import lower layer; reverse imports are forbidden.** Same-layer optional peers are permitted only at L2 (domain producers). Orthogonal packages (`scitex-{hub,orochi,agent-container,container}`, `newb`) are *not* part of the cascade — they orchestrate or host it. Full doctrine: [SoC notes](https://github.com/ywatanabe1989/scitex-python/blob/develop/docs/architecture/SOC.md) · [skill 01_upstream-and-downstream](https://github.com/ywatanabe1989/scitex-dev/blob/main/src/scitex_dev/_skills/general/01_ecosystem/01_upstream-and-downstream.md).
 
 ```
                        ┌──────────────────────────┐
