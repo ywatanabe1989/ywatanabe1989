@@ -81,7 +81,7 @@
 <details>
 <summary><b>All 68 active packages — single table with layer + dependency view</b></summary>
 
-Sourced from [`scitex_dev._ecosystem._registry.ECOSYSTEM`](https://github.com/ywatanabe1989/scitex-dev/blob/main/src/scitex_dev/_ecosystem/_registry.py) (71 entries; 3 archived/absorbed omitted: `scitex-linter` → `scitex_dev.linter`, `scitex-bridge` → inline integration, `scitex-security` → absorbed into `scitex-audit` per ADR-0001). The **Layer** column matches the diagram above; **Depends on** lists scitex-* runtime deps (short form, stripped `scitex-` prefix) extracted from each package's `pyproject.toml`.
+Sourced from [`scitex_dev._ecosystem._registry.ECOSYSTEM`](https://github.com/ywatanabe1989/scitex-dev/blob/main/src/scitex_dev/_ecosystem/_registry.py)
 
 | Package | scitex Module | Layer | Depends on (scitex-* runtime) | Description |
 |---------|---------------|-------|--------------------------------|-------------|
