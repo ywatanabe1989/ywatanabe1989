@@ -1,0 +1,821 @@
+========================================================================
+Time: 2026-03-14 18:06:51
+Tool: Bash
+Cmd:  find ~/proj -maxdepth 2 -type d -name "*scitex*" -o -name "*mngs*" 2>/dev/null | head -20
+--- stdout ---
+/home/ywatanabe/proj/scitex-stats
+/home/ywatanabe/proj/scitex-stats/scitex
+/home/ywatanabe/proj/scitex-scholar
+/home/ywatanabe/proj/scitex-cloud-old
+/home/ywatanabe/proj/.claude-worktree/scitex-code-test-improvement-db
+/home/ywatanabe/proj/.claude-worktree/scitex-code-test-improvement-writer
+/home/ywatanabe/proj/.claude-worktree/scitex-writer-fix-table
+/home/ywatanabe/proj/scitex-roadmap
+/home/ywatanabe/proj/scitex-tunnel
+/home/ywatanabe/proj/scitex-template-cloud-module
+/home/ywatanabe/proj/scitex-spec
+/home/ywatanabe/proj/scitex-dev
+/home/ywatanabe/proj/scitex-dev/scitex
+/home/ywatanabe/proj/scitex-writer-demo
+/home/ywatanabe/proj/scitex-writer-demo/scitex-writer-demo-20260119-080503
+/home/ywatanabe/proj/scitex-writer-demo/scitex-writer-demo-2026-0119-075832
+/home/ywatanabe/proj/scitex-python
+/home/ywatanabe/proj/scitex-python/scitex
+/home/ywatanabe/proj/scitex-linter
+/home/ywatanabe/proj/scitex-paper-1st
+
+========================================================================
+Time: 2026-03-14 18:06:58
+Tool: Bash
+Cmd:  ls -d ~/proj/*/ 2>/dev/null | head -40
+--- stdout ---
+/home/ywatanabe/proj/agents/
+/home/ywatanabe/proj/ai-ielts/
+/home/ywatanabe/proj/automated-research-demo/
+/home/ywatanabe/proj/bgm/
+/home/ywatanabe/proj/calkit/
+/home/ywatanabe/proj/Claude-Code-Usage-Monitor/
+/home/ywatanabe/proj/claude-log/
+/home/ywatanabe/proj/cloud_computing_utils/
+/home/ywatanabe/proj/crawl4ai/
+/home/ywatanabe/proj/crossref-local/
+/home/ywatanabe/proj/data/
+/home/ywatanabe/proj/davinci_resolve/
+/home/ywatanabe/proj/davinci-resolve-mcp/
+/home/ywatanabe/proj/dev/
+/home/ywatanabe/proj/docs/
+/home/ywatanabe/proj/emacs_mcp_server/
+/home/ywatanabe/proj/emacs_tracker/
+/home/ywatanabe/proj/emacs_visualization_server/
+/home/ywatanabe/proj/email/
+/home/ywatanabe/proj/figrecipe/
+/home/ywatanabe/proj/frontend-slides-main/
+/home/ywatanabe/proj/fsb/
+/home/ywatanabe/proj/github-repository-interpreter-mcp-server/
+/home/ywatanabe/proj/grant/
+/home/ywatanabe/proj/impact_factor/
+/home/ywatanabe/proj/lisp/
+/home/ywatanabe/proj/melbourne-moving-sale/
+/home/ywatanabe/proj/natti_ccl/
+/home/ywatanabe/proj/neurovista-paper-20260103/
+/home/ywatanabe/proj/openalex-local/
+/home/ywatanabe/proj/paper-pdf-download-demo/
+/home/ywatanabe/proj/papers/
+/home/ywatanabe/proj/pip-project-template/
+/home/ywatanabe/proj/priority-config/
+/home/ywatanabe/proj/pyposter/
+/home/ywatanabe/proj/resell-from-Melbourne/
+/home/ywatanabe/proj/sccpt/
+/home/ywatanabe/proj/_scitex/
+/home/ywatanabe/proj/scitex-app/
+/home/ywatanabe/proj/scitex-audio/
+
+========================================================================
+Time: 2026-03-14 18:07:09
+Tool: Bash
+Cmd:  ls -d ~/proj/scitex*/ ~/proj/*scitex*/ ~/proj/figrecipe/ ~/proj/crossref-local/ ~/proj/openalex-local/ 2>/dev/null | sort
+--- stdout ---
+/home/ywatanabe/proj/crossref-local/
+/home/ywatanabe/proj/figrecipe/
+/home/ywatanabe/proj/openalex-local/
+/home/ywatanabe/proj/_scitex/
+/home/ywatanabe/proj/scitex-app/
+/home/ywatanabe/proj/scitex-app/
+/home/ywatanabe/proj/scitex-audio/
+/home/ywatanabe/proj/scitex-audio/
+/home/ywatanabe/proj/scitex-clew/
+/home/ywatanabe/proj/scitex-clew/
+/home/ywatanabe/proj/scitex-cloud/
+/home/ywatanabe/proj/scitex-cloud/
+/home/ywatanabe/proj/scitex-cloud-old/
+/home/ywatanabe/proj/scitex-cloud-old/
+/home/ywatanabe/proj/scitex-code/
+/home/ywatanabe/proj/scitex-code/
+/home/ywatanabe/proj/scitex-container/
+/home/ywatanabe/proj/scitex-container/
+/home/ywatanabe/proj/scitex-core/
+/home/ywatanabe/proj/scitex-core/
+/home/ywatanabe/proj/scitex-dataset/
+/home/ywatanabe/proj/scitex-dataset/
+/home/ywatanabe/proj/scitex-db/
+/home/ywatanabe/proj/scitex-db/
+/home/ywatanabe/proj/scitex-dev/
+/home/ywatanabe/proj/scitex-dev/
+/home/ywatanabe/proj/scitex-doc/
+/home/ywatanabe/proj/scitex-doc/
+/home/ywatanabe/proj/scitex-io/
+/home/ywatanabe/proj/scitex-io/
+/home/ywatanabe/proj/scitex-linter/
+/home/ywatanabe/proj/scitex-linter/
+/home/ywatanabe/proj/scitex-minimal-template/
+/home/ywatanabe/proj/scitex-minimal-template/
+/home/ywatanabe/proj/_scitex-paper-1st/
+/home/ywatanabe/proj/scitex-paper-1st/
+/home/ywatanabe/proj/scitex-paper-1st/
+/home/ywatanabe/proj/scitex-plt/
+/home/ywatanabe/proj/scitex-plt/
+/home/ywatanabe/proj/scitex-python/
+/home/ywatanabe/proj/scitex-python/
+/home/ywatanabe/proj/scitex_repo/
+/home/ywatanabe/proj/scitex_repo/
+/home/ywatanabe/proj/scitex-research-template/
+/home/ywatanabe/proj/scitex-research-template/
+/home/ywatanabe/proj/scitex-roadmap/
+/home/ywatanabe/proj/scitex-roadmap/
+/home/ywatanabe/proj/scitex-scholar/
+/home/ywatanabe/proj/scitex-scholar/
+/home/ywatanabe/proj/scitex-spec/
+/home/ywatanabe/proj/scitex-spec/
+/home/ywatanabe/proj/scitex-stats/
+/home/ywatanabe/proj/scitex-stats/
+/home/ywatanabe/proj/scitex-template-cloud-module/
+/home/ywatanabe/proj/scitex-template-cloud-module/
+/home/ywatanabe/proj/scitex-tunnel/
+/home/ywatanabe/proj/scitex-tunnel/
+/home/ywatanabe/proj/scitex-vis/
+/home/ywatanabe/proj/scitex-vis/
+/home/ywatanabe/proj/_scitex-viz/
+/home/ywatanabe/proj/scitex-writer/
+/home/ywatanabe/proj/scitex-writer/
+/home/ywatanabe/proj/scitex-writer-demo/
+/home/ywatanabe/proj/scitex-writer-demo/
+
+========================================================================
+Time: 2026-03-14 18:07:24
+Tool: Bash
+Cmd:  cd ~/proj && ls -d scitex-* _scitex* figrecipe crossref-local openalex-local 2>/dev/null | sort -u
+--- stdout ---
+crossref-local
+figrecipe
+openalex-local
+_scitex
+scitex-app
+scitex-audio
+scitex-clew
+scitex-cloud
+scitex-cloud-old
+scitex-code
+scitex-code_ywata-note-win_20251110.tar.gz
+scitex-container
+scitex-core
+scitex-dataset
+scitex-db
+scitex-dev
+scitex-doc
+scitex-io
+scitex-linter
+scitex-minimal-template
+_scitex-paper-1st
+scitex-paper-1st
+scitex-plt
+scitex-python
+scitex-research-template
+scitex-roadmap
+scitex-scholar
+scitex-spec
+scitex-spec.zip
+scitex-stats
+scitex-template-cloud-module
+scitex-tunnel
+scitex-vis
+_scitex-viz
+scitex-writer
+scitex-writer-demo
+
+========================================================================
+Time: 2026-03-14 18:07:38
+Tool: Bash
+Cmd:  find ~/proj/scitex-* -maxdepth 1 \( -name "setup.py" -o -name "setup.cfg" -o -name "pyproject.toml" \) 2>/dev/null | head -20
+--- stdout ---
+/home/ywatanabe/proj/scitex-app/pyproject.toml
+/home/ywatanabe/proj/scitex-audio/pyproject.toml
+/home/ywatanabe/proj/scitex-clew/pyproject.toml
+/home/ywatanabe/proj/scitex-cloud/pyproject.toml
+/home/ywatanabe/proj/scitex-container/pyproject.toml
+/home/ywatanabe/proj/scitex-core/pyproject.toml
+/home/ywatanabe/proj/scitex-dataset/pyproject.toml
+/home/ywatanabe/proj/scitex-db/pyproject.toml
+/home/ywatanabe/proj/scitex-dev/pyproject.toml
+/home/ywatanabe/proj/scitex-io/pyproject.toml
+/home/ywatanabe/proj/scitex-linter/pyproject.toml
+/home/ywatanabe/proj/scitex-paper-1st/pyproject.toml
+/home/ywatanabe/proj/scitex-plt/pyproject.toml
+/home/ywatanabe/proj/scitex-python/pyproject.toml
+/home/ywatanabe/proj/scitex-scholar/setup.py
+/home/ywatanabe/proj/scitex-scholar/pyproject.toml
+/home/ywatanabe/proj/scitex-stats/pyproject.toml
+/home/ywatanabe/proj/scitex-template-cloud-module/pyproject.toml
+/home/ywatanabe/proj/scitex-tunnel/pyproject.toml
+/home/ywatanabe/proj/scitex-vis/pyproject.toml
+
+========================================================================
+Time: 2026-03-14 18:19:35
+Tool: Bash
+Cmd:  find ~/proj/{figrecipe,crossref-local,openalex-local,_scitex} -maxdepth 1 \( -name "setup.py" -o -name "setup.cfg" -o -name "pyproject.toml" \) 2>/dev/null
+--- stdout ---
+/home/ywatanabe/proj/figrecipe/pyproject.toml
+/home/ywatanabe/proj/crossref-local/pyproject.toml
+/home/ywatanabe/proj/openalex-local/pyproject.toml
+
+========================================================================
+Time: 2026-03-14 18:23:44
+Tool: Bash
+Cmd:  cd ~/proj && for pkg in scitex-core scitex-plt scitex-stats scitex-scholar scitex-writer scitex-io scitex-dev figrecipe crossref-local openalex-local; do\n  if [ -d "$pkg" ]; then\n    echo "=== $pkg 
+--- stdout ---
+=== scitex-core ===
+version = "0.2.0"
+description = "Core infrastructure and fundamental utilities for the SciTeX ecosystem"
+
+=== scitex-plt ===
+version = "0.24.0"
+description = "SciTeX plotting module (alias for figrecipe)"
+
+=== scitex-stats ===
+version = "0.2.4"
+description = "Publication-ready statistical testing framework with 23 tests, effect sizes, power analysis, and MCP server"
+
+=== scitex-scholar ===
+version = "0.2.0"
+description = "A Python package for scientific text search and analysis"
+
+=== scitex-writer ===
+version = "2.10.0"
+description = "LaTeX manuscript compilation system for scientific documents with MCP server"
+
+=== scitex-io ===
+version = "0.2.1"
+description = "Universal scientific data I/O with plugin registry"
+
+=== scitex-dev ===
+version = "0.2.0"
+description = "Shared developer utilities for the SciTeX ecosystem"
+
+=== figrecipe ===
+version = "0.26.5"
+description = "Reproducible matplotlib wrapper with mm-precision layouts"
+
+=== crossref-local ===
+version = "0.5.5"
+description = "Local CrossRef database with 167M+ works and full-text search"
+
+=== openalex-local ===
+version = "0.4.4"
+description = "Local OpenAlex database with 284M+ works, abstracts, and semantic search"
+
+========================================================================
+Time: 2026-03-14 18:24:25
+Tool: Bash
+Cmd:  cd ~/proj && for pkg in scitex-core scitex-plt scitex-stats scitex-scholar scitex-writer scitex-io scitex-dev figrecipe crossref-local openalex-local; do\n  if [ -d "$pkg" ] && [ -d "$pkg/.git" ]; the
+--- stdout ---
+=== scitex-core ===
+45e0769 feat: Add str module to scitex-core v0.1.1
+7e198c6 chore: Update version to 0.1.0
+7d321c3 fix: Inline utility functions to remove external dependencies
+58dbe42 Initial commit: scitex-core v1.0.0 with logging, errors, and sh modules
+GitHub URL:
+
+=== scitex-plt ===
+e07861d chore: gitignore dist/
+74a0a55 Initial commit: scitex-plt alias package for figrecipe
+GitHub URL:
+origin	git@github.com:ywatanabe1989/scitex-plt.git (fetch)
+
+=== scitex-stats ===
+7958afc fix: remove hard scitex dependency from CSV support, add supports_return_as
+92e9eac fix(tests): use inline skip for scitex.io tests (linter-safe)
+46b598e fix(tests): restore requires_scitex_io marker removed by linter
+502ebcb fix(tests): use runtime check for scitex.io availability in skip marker
+1f3619f fix(tests): correct p-value in schema test, skip CSV tests without scitex_io
+GitHub URL:
+origin	git@github.com:ywatanabe1989/scitex-stats.git (fetch)
+
+=== scitex-scholar ===
+96314ce chore: bump version to 0.2.0
+7be8b70 chore: add scitex_dev.docs entry point
+07970f2 Add impact factor module
+6861cb0 Reorganize docs/to_claude directory structure
+8329bc0 Clean up repository to production-ready quality
+GitHub URL:
+origin	git@github.com:ywatanabe1989/SciTeX-Scholar.git (fetch)
+
+=== scitex-writer ===
+76c9905 chore: bump version to 2.10.0
+0647459 refactor: audit fixes — CLI help-recursive, README restructure, @supports_return_as
+8a082bc docs: update CHANGELOG with entries from v2.6.0 through v2.9.0
+4eeefad chore: bump version to 2.9.0
+96508a5 chore: gitignore pre-built _docs/ directory
+GitHub URL:
+origin	git@github.com:ywatanabe1989/scitex-writer.git (fetch)
+
+=== scitex-io ===
+fde5871 fix: audit fixes — version sync, deps, CI coverage, examples, decorator
+102e728 fix: add __init__.py to test subdirs for import resolution
+4837789 docs: standardize Four Freedoms block with FSF attribution
+8f97c48 chore: bump version to 0.2.1
+b4e74ae chore: add scitex_dev.docs entry point and docs dependencies
+GitHub URL:
+origin	git@github.com:ywatanabe1989/scitex-io.git (fetch)
+
+=== scitex-dev ===
+1dae75f feat(rename): add scope/recursive params and ripgrep acceleration
+3c28153 feat(docs): add get_package_metadata() and gitignore pre-built _docs/
+758f28f fix(rename): improve error message with git workflow hints
+beb0c63 feat(rename): add regex support with multiline pattern matching
+a8ec103 refactor(types): replace next_steps with hints_on_success/warning/error
+GitHub URL:
+origin	git@github.com:ywatanabe1989/scitex-dev.git (fetch)
+
+=== figrecipe ===
+c392260 fix(ci): omit MCP/compat/django from coverage measurement
+7af64b7 fix(tests): update MCP resource tests for FastMCP 3.x API
+8a47887 fix: bump minimum Python to 3.10 (3.9 EOL), drop from CI matrix
+f2e7c06 fix: resolve all 150 ruff lint errors (auto-fix + per-file ignores)
+3a16030 chore: add root PNGs to gitignore and clean up
+GitHub URL:
+origin	git@github.com:ywatanabe1989/figrecipe.git (fetch)
+
+=== crossref-local ===
+094adce chore: bump versi
+... [truncated, 3750 total chars]
+
+========================================================================
+Time: 2026-03-14 18:25:12
+Tool: Bash
+Cmd:  cd ~/proj && for pkg in scitex-audio scitex-clew scitex-cloud scitex-code scitex-container scitex-dataset scitex-db scitex-doc scitex-linter scitex-tunnel scitex-vis; do\n  if [ -d "$pkg" ] && [ -f "$
+--- stdout ---
+=== scitex-audio ===
+version = "0.2.1"
+description = "Text-to-Speech with multiple backends for scientific workflows"
+360ccc2 fix(tests): rewrite CLI tests for Click (was argparse)
+origin	git@github.com:ywatanabe1989/scitex-audio.git (fetch)
+
+=== scitex-clew ===
+version = "0.2.1"
+description = "Verifiable knowledge graph for scientific experiments"
+38ca482 chore: bump version to 0.2.1
+backup	https://github.com/ywatanabe1989/scitex-clew_backup_20260311_090618.git (fetch)
+
+=== scitex-cloud ===
+version = "0.15.0"
+description = "SciTeX Cloud - Deployment and management CLI for SciTeX"
+a6129a17 feat: add scitex_container source
+origin	git@github.com:ywatanabe1989/scitex-cloud (fetch)
+
+=== scitex-code ===
+version = "2.24.0"
+description = "A comprehensive Python library for scientific computing and data analysis"
+ef0f0b43 fix: resolve stale imports from scitex-io/stats migration, xfail broken tests
+origin	git@github.com:ywatanabe1989/scitex-python.git (fetch)
+
+=== scitex-container ===
+version = "0.1.3"
+description = "Unified container management for Apptainer and Docker"
+1fa131d audit: restructure README, add tests/examples, apply @supports_return_as
+origin	git@github.com:ywatanabe1989/scitex-container.git (fetch)
+
+=== scitex-dataset ===
+version = "0.1.4"
+description = "Dataset fetcher for neuroscience research (OpenNeuro, BIDS, etc.)"
+5c9d99d chore: bump version to 0.1.4
+origin	git@github.com:ywatanabe1989/scitex-dataset.git (fetch)
+
+=== scitex-db ===
+version = "0.1.0"
+description = "Database utilities for scientific computing with SQLite3 and PostgreSQL"
+37138d3 feat: Make scitex-db depend on scitex-core v0.1.0
+
+=== scitex-linter ===
+version = "0.3.1"
+description = "AST-based linter enforcing SciTeX reproducible research patterns"
+859f81e audit: overhaul README, add tab completion, add scitex-dev dep
+origin	git@github.com:ywatanabe1989/scitex-linter.git (fetch)
+
+=== scitex-tunnel ===
+version = "0.2.0"
+description = "Persistent SSH reverse tunnel for SciTeX (NAT traversal)"
+be5df8d chore: update claude config and hooks
+origin	git@github.com:ywatanabe1989/scitex-tunnel.git (fetch)
+
+=== scitex-vis ===
+version = "0.1.0"
+description = "JSON-based, publication-quality figure container (standalone SciTeX visualization core)."
+
+========================================================================
+Time: 2026-03-14 18:25:34
+Tool: Bash
+Cmd:  cd ~/proj && for pkg in scitex-python scitex-doc scitex-db; do\n  if [ -d "$pkg" ] && [ -f "$pkg/pyproject.toml" ]; then\n    echo "=== $pkg - REMOTE ==="\n    if [ -d "$pkg/.git" ]; then\n      git -
+--- stdout ---
+=== scitex-python - REMOTE ===
+origin	git@github.com:ywatanabe1989/scitex-python.git (fetch)
+=== scitex-db - REMOTE ===
+
+========================================================================
+Time: 2026-03-14 18:25:57
+Tool: Bash
+Cmd:  cd ~/proj && ls -d scitex-* _scitex* figrecipe crossref-local openalex-local 2>/dev/null | grep -v '\.tar\.gz\|\.zip' | sort -u | wc -l
+--- stdout ---
+34
+
+========================================================================
+Time: 2026-03-14 18:26:10
+Tool: Bash
+Cmd:  cd ~/proj && for pkg in $(ls -d scitex-* _scitex* figrecipe crossref-local openalex-local 2>/dev/null | grep -v '\.tar\.gz\|\.zip' | sort -u); do\n  if [ -f "$pkg/pyproject.toml" ]; then\n    echo "==
+--- stdout ---
+=== crossref-local ===
+version = "0.5.5"
+description = "Local CrossRef database with 167M+ works and full-text search"
+
+=== figrecipe ===
+version = "0.26.5"
+description = "Reproducible matplotlib wrapper with mm-precision layouts"
+
+=== openalex-local ===
+version = "0.4.4"
+description = "Local OpenAlex database with 284M+ works, abstracts, and semantic search"
+
+=== scitex-app ===
+version = "0.1.0"
+description = "SciTeX App SDK — write-once interface for local + cloud apps"
+
+=== scitex-audio ===
+version = "0.2.1"
+description = "Text-to-Speech with multiple backends for scientific workflows"
+
+=== scitex-clew ===
+version = "0.2.1"
+description = "Verifiable knowledge graph for scientific experiments"
+
+=== scitex-cloud ===
+version = "0.15.0"
+description = "SciTeX Cloud - Deployment and management CLI for SciTeX"
+
+=== scitex-code ===
+version = "2.24.0"
+description = "A comprehensive Python library for scientific computing and data analysis"
+
+=== scitex-container ===
+version = "0.1.3"
+description = "Unified container management for Apptainer and Docker"
+
+=== scitex-core ===
+version = "0.2.0"
+description = "Core infrastructure and fundamental utilities for the SciTeX ecosystem"
+
+=== scitex-dataset ===
+version = "0.1.4"
+description = "Dataset fetcher for neuroscience research (OpenNeuro, BIDS, etc.)"
+
+=== scitex-db ===
+version = "0.1.0"
+description = "Database utilities for scientific computing with SQLite3 and PostgreSQL"
+
+=== scitex-dev ===
+version = "0.2.0"
+description = "Shared developer utilities for the SciTeX ecosystem"
+
+=== scitex-io ===
+version = "0.2.1"
+description = "Universal scientific data I/O with plugin registry"
+
+=== scitex-linter ===
+version = "0.3.1"
+description = "AST-based linter enforcing SciTeX reproducible research patterns"
+
+=== _scitex-paper-1st ===
+version = "2.4.0"
+description = "LaTeX manuscript compilation system for scientific documents with MCP server"
+
+=== scitex-paper-1st ===
+version = "2.6.2"
+description = "LaTeX manuscript compilation system for scientific documents with MCP server"
+
+=== scitex-plt ===
+version = "0.24.0"
+description = "SciTeX plotting module (alias for figrecipe)"
+
+=== scitex-python ===
+version = "2.24.0"
+description = "A comprehensive Python library for scientific computing and data analysis"
+
+=== scitex-scholar ===
+version = "0.2.0"
+description = "A Python package for scientific text search and analysis"
+
+=== scitex-stats ===
+version = "0.2.4"
+description = "Publication-ready statistical testing framework with 23 tests, effect sizes, power analysis, and MCP server"
+
+=== scitex-template-cloud-module ===
+
+=== scitex-tunnel ===
+version = "0.2.0"
+description = "Persistent SSH reverse tunnel for SciTeX (NAT traversal)"
+
+=== scitex-vis ===
+version = "0.1.0"
+description = "JSON-based, publication-quality figure container (standalone SciTeX visualization core)."
+
+=== scitex-writer ===
+version = "2.10.0"
+description = "LaTeX manuscript compilation system for scientific documents with MCP server"
+
+========================================================================
+Time: 2026-03-14 18:31:33
+Tool: Bash
+Cmd:  cd ~/proj && for pkg in $(ls -d scitex-* _scitex* figrecipe crossref-local openalex-local 2>/dev/null | grep -v '\.tar\.gz\|\.zip' | sort -u); do\n  if [ -d "$pkg/.git" ]; then\n    echo "=== $pkg ===
+--- stdout ---
+=== crossref-local ===
+Recent commits (last 3):
+  094adce chore: bump version to 0.5.5
+  99a51aa chore: add scitex_dev.docs entry point and docs dependencies
+  ea39dfa fix(deps): update fastmcp requirement from >=0.4 to >=2.0.0
+GitHub:
+  origin	git@github.com:ywatanabe1989/crossref-local (fetch)
+
+=== figrecipe ===
+Recent commits (last 3):
+  c392260 fix(ci): omit MCP/compat/django from coverage measurement
+  7af64b7 fix(tests): update MCP resource tests for FastMCP 3.x API
+  8a47887 fix: bump minimum Python to 3.10 (3.9 EOL), drop from CI matrix
+GitHub:
+  origin	git@github.com:ywatanabe1989/figrecipe.git (fetch)
+
+=== openalex-local ===
+Recent commits (last 3):
+  d5ba8be chore: bump version to 0.4.4
+  06640a4 chore: add scitex_dev.docs entry point and docs dependencies
+  2ec6aa0 fix(deps): update fastmcp requirement from >=0.4 to >=2.0.0
+GitHub:
+  origin	git@github.com:ywatanabe1989/openalex-local (fetch)
+
+=== scitex-app ===
+Recent commits (last 3):
+  b4d2719 docs: standardize Four Freedoms block with FSF attribution
+  e365202 Merge pull request #3 from ywatanabe1989/develop
+  1c56577 fix(docs): fix Sphinx version shadowing causing RTD build failure
+GitHub:
+  origin	git@github.com:ywatanabe1989/scitex-app.git (fetch)
+
+=== scitex-audio ===
+Recent commits (last 3):
+  360ccc2 fix(tests): rewrite CLI tests for Click (was argparse)
+  ec8f686 fix: add luxtts optional dep, unify __main__.py with CLI, clean test file
+  881495b feat: minimize API surface, add ENV_SRC pattern, update docs
+GitHub:
+  origin	git@github.com:ywatanabe1989/scitex-audio.git (fetch)
+
+=== scitex-clew ===
+Recent commits (last 3):
+  38ca482 chore: bump version to 0.2.1
+  a39e946 Merge pull request #8 from ywatanabe1989/develop
+  2921e47 fix(ci): pin fastmcp<3.0.0 to avoid breaking API changes
+GitHub:
+  origin	git@github.com:ywatanabe1989/scitex-clew.git (fetch)
+
+=== scitex-cloud ===
+Recent commits (last 3):
+  a6129a17 feat: add scitex_container source
+  90c54a48 docs: standardize Four Freedoms block with FSF attribution
+  fae80311 chore: bump version to 0.15.0
+GitHub:
+  origin	git@github.com:ywatanabe1989/scitex-cloud (fetch)
+
+=== scitex-cloud-old ===
+Recent commits (last 3):
+  ea15e70 Update
+  9a738d3 Reorganize docs/to_claude directory structure
+  e86b2ed Delete obsolete files
+GitHub:
+  origin	git@github.com:ywatanabe1989/SciTeX-Cloud.git (fetch)
+
+=== scitex-code ===
+Recent commits (last 3):
+  ef0f0b43 fix: resolve stale imports from scitex-io/stats migration, xfail broken tests
+  21873a8d fix(test): handle Result envelope in all CLI JSON tests (24 failures)
+  d77b0367 fix(test): handle Result envelope in test_check_json
+GitHub:
+  origin	git@github.com:ywatanabe1989/scitex-python.git (fetch)
+
+=== scitex-container ===
+Recent commits (last 3):
+  1fa131d audit: restructure README, add tests/examples, apply @supports_return_as
+  26ca822 fix: resolve ruff lint errors (F541, F841)
+  0a374f4 fix: sync __init__.py version to 0.1.3 and fix license identifier
+GitHub:
+  origin	git@github.com:yw
+... [truncated, 7244 total chars]
+
+========================================================================
+Time: 2026-03-14 18:31:52
+Tool: Bash
+Cmd:  cd ~/proj && for pkg in scitex-stats scitex-tunnel scitex-vis scitex-writer _scitex scitex-doc; do\n  if [ -d "$pkg/.git" ]; then\n    echo "=== $pkg ==="\n    echo "Recent commits (last 3):"\n    git
+--- stdout ---
+=== scitex-stats ===
+Recent commits (last 3):
+  7958afc fix: remove hard scitex dependency from CSV support, add supports_return_as
+  92e9eac fix(tests): use inline skip for scitex.io tests (linter-safe)
+  46b598e fix(tests): restore requires_scitex_io marker removed by linter
+GitHub:
+  origin	git@github.com:ywatanabe1989/scitex-stats.git (fetch)
+
+=== scitex-tunnel ===
+Recent commits (last 3):
+  be5df8d chore: update claude config and hooks
+  41a7fb8 docs: standardize Four Freedoms block with FSF attribution
+  e5c6747 fix(ci): allow mcp doctor test to pass when fastmcp is not installed
+GitHub:
+  origin	git@github.com:ywatanabe1989/scitex-tunnel.git (fetch)
+
+=== scitex-writer ===
+Recent commits (last 3):
+  76c9905 chore: bump version to 2.10.0
+  0647459 refactor: audit fixes — CLI help-recursive, README restructure, @supports_return_as
+  8a082bc docs: update CHANGELOG with entries from v2.6.0 through v2.9.0
+GitHub:
+  origin	git@github.com:ywatanabe1989/scitex-writer.git (fetch)
+
+=== scitex-doc ===
+Recent commits (last 3):
+GitHub:
+  origin	git@github.com:SciTeX-AI/SciTeX-Doc (fetch)
+
+========================================================================
+Time: 2026-03-14 18:33:11
+Tool: Bash
+Cmd:  gh api users/ywatanabe1989/repos --paginate -q '.[] | [.name, .description, .html_url, .pushed_at] | @tsv' 2>/dev/null | sort -t$'\t' -k4 -r | head -80
+Desc: Fetch all GitHub repos with recent push dates
+--- stdout ---
+sort: multi-character tab ‘$\\t’
+
+========================================================================
+Time: 2026-03-14 18:33:24
+Tool: Bash
+Cmd:  gh api users/ywatanabe1989/repos --paginate -q '.[] | "\(.name)\t\(.description // "N/A")\t\(.html_url)\t\(.pushed_at)"' 2>/dev/null | sort -t'	' -k4 -r | head -80
+Desc: Fetch all GitHub repos sorted by recent push
+--- stdout ---
+scitex-clew	Verifiable knowledge graph for scientific experiments	https://github.com/ywatanabe1989/scitex-clew	2026-03-14T07:32:19Z
+scitex-python	Modular Python toolkit for scientific research with 200+ MCP tools — from raw data to manuscript	https://github.com/ywatanabe1989/scitex-python	2026-03-14T06:31:13Z
+scitex-dataset	Unified Python API for neuroscience datasets: OpenNeuro, DANDI, PhysioNet, Zenodo. BIDS/NWB metadata search with MCP server for AI agents. Part of SciTeX ecosystem.	https://github.com/ywatanabe1989/scitex-dataset	2026-03-14T05:43:48Z
+scitex-writer	LaTeX manuscript compilation with automatic versioning, diff generation, and MCP server for AI assistants. Part of SciTeX.	https://github.com/ywatanabe1989/scitex-writer	2026-03-14T05:41:43Z
+scitex-io	Universal scientific data I/O with plugin registry — save/load 30+ formats with one API. Part of SciTeX.	https://github.com/ywatanabe1989/scitex-io	2026-03-14T05:34:18Z
+scitex-stats	Publication-ready statistical testing with 23 tests, effect sizes, power analysis, and APA formatting	https://github.com/ywatanabe1989/scitex-stats	2026-03-14T01:47:21Z
+figrecipe	Reproducible, publication-ready scientific figures as first-class objects. Millimeter-precise layout, 47 plot types, GUI editor, and diagram engine. Part of SciTeX. AGPL-3.0.	https://github.com/ywatanabe1989/figrecipe	2026-03-14T00:31:05Z
+socialia	Unified social media management — posting, analytics, and insights.	https://github.com/ywatanabe1989/socialia	2026-03-13T23:41:15Z
+scitex-audio	Text-to-Speech with Multiple Backend Fallback (elevenlabs → luxtts → gtts → pyttsx3)	https://github.com/ywatanabe1989/scitex-audio	2026-03-13T23:37:02Z
+scitex-container	Unified container management for Apptainer and Docker — part of the SciTeX ecosystem	https://github.com/ywatanabe1989/scitex-container	2026-03-13T23:35:40Z
+scitex-linter	AST-based Python linter enforcing SciTeX reproducible research patterns	https://github.com/ywatanabe1989/scitex-linter	2026-03-13T23:00:32Z
+scitex-research-template	Boilerplate template for scientific research projects using the SciTeX framework. MNIST example pipeline included.	https://github.com/ywatanabe1989/scitex-research-template	2026-03-13T22:33:40Z
+scitex-tunnel	Persistent SSH (Secure Shell) reverse tunnel for SciTeX — NAT (Network Address Translation) traversal via autossh	https://github.com/ywatanabe1989/scitex-tunnel	2026-03-13T22:33:36Z
+scitex-cloud	Django-based, self-hostable browser application for scientific research. Part of SciTeX.	https://github.com/ywatanabe1989/scitex-cloud	2026-03-13T22:33:34Z
+scitex-app	N/A	https://github.com/ywatanabe1989/scitex-app	2026-03-13T21:19:31Z
+scitex-dev	Shared developer utilities for the SciTeX ecosystem	https://github.com/ywatanabe1989/scitex-dev	2026-03-13T21:08:52Z
+SciTeX-Scholar	N/A	https://github.com/ywatanabe1989/SciTeX-Scholar	2026-03-13T19:35:29Z
+openalex-local	Local OpenAlex database with 284M+ scholarly works, abstracts, and semantic search for RAG and res
+... [truncated, 11329 total chars]
+
+========================================================================
+Time: 2026-03-14 19:02:12
+Tool: Bash
+Cmd:  gh api repos/ywatanabe1989/emacs-mcp-server 2>&1 | head -3; echo "---"; gh api repos/ywatanabe1989/emacs-monitor-repository 2>&1 | head -3; echo "---"; gh api repos/ywatanabe1989/emacs-notification 2>
+Desc: Check if missing emacs repos exist on GitHub
+--- stdout ---
+{"id":989719871,"node_id":"R_kgDOOv3tPw","name":"emacs-mcp-server","full_name":"ywatanabe1989/emacs-mcp-server","private":true,"owner":{"login":"ywatanabe1989","id":42527473,"node_id":"MDQ6VXNlcjQyNTI3NDcz","avatar_url":"https://avatars.githubusercontent.com/u/42527473?v=4","gravatar_id":"","url":"https://api.github.com/users/ywatanabe1989","html_url":"https://github.com/ywatanabe1989","followers_url":"https://api.github.com/users/ywatanabe1989/followers","following_url":"https://api.github.com/users/ywatanabe1989/following{/other_user}","gists_url":"https://api.github.com/users/ywatanabe1989/gists{/gist_id}","starred_url":"https://api.github.com/users/ywatanabe1989/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/ywatanabe1989/subscriptions","organizations_url":"https://api.github.com/users/ywatanabe1989/orgs","repos_url":"https://api.github.com/users/ywatanabe1989/repos","events_url":"https://api.github.com/users/ywatanabe1989/events{/privacy}","received_events_url":"https://api.github.com/users/ywatanabe1989/received_events","type":"User","user_view_type":"public","site_admin":false},"html_url":"https://github.com/ywatanabe1989/emacs-mcp-server","description":"MCP server for Emacs: frame management, code analysis, screenshot capture, and Elisp execution for AI assistants.","fork":false,"url":"https://api.github.com/repos/ywatanabe1989/emacs-mcp-server","forks_url":"https://api.github.com/repos/ywatanabe1989/emacs-mcp-server/forks","keys_url":"https://api.github.com/repos/ywatanabe1989/emacs-mcp-server/keys{/key_id}","collaborators_url":"https://api.github.com/repos/ywatanabe1989/emacs-mcp-server/collaborators{/collaborator}","teams_url":"https://api.github.com/repos/ywatanabe1989/emacs-mcp-server/teams","hooks_url":"https://api.github.com/repos/ywatanabe1989/emacs-mcp-server/hooks","issue_events_url":"https://api.github.com/repos/ywatanabe1989/emacs-mcp-server/issues/events{/number}","events_url":"https://api.github.com/repos/ywatanabe1989/emacs-mcp-server/events","assignees_url":"https://api.github.com/repos/ywatanabe1989/emacs-mcp-server/assignees{/user}","branches_url":"https://api.github.com/repos/ywatanabe1989/emacs-mcp-server/branches{/branch}","tags_url":"https://api.github.com/repos/ywatanabe1989/emacs-mcp-server/tags","blobs_url":"https://api.github.com/repos/ywatanabe1989/emacs-mcp-server/git/blobs{/sha}","git_tags_url":"https://api.github.com/repos/ywatanabe1989/emacs-mcp-server/git/tags{/sha}","git_refs_url":"https://api.github.com/repos/ywatanabe1989/emacs-mcp-server/git/refs{/sha}","trees_url":"https://api.github.com/repos/ywatanabe1989/emacs-mcp-server/git/trees{/sha}","statuses_url":"https://api.github.com/repos/ywatanabe1989/emacs-mcp-server/statuses/{sha}","languages_url":"https://api.github.com/repos/ywatanabe1989/emacs-mcp-server/languages","stargazers_url":"https://api.github.com/repos/ywatanabe1989/emacs-mcp-server/stargazers","contributors_url":"https://api.github.com/repos/ywatanabe1989/emacs-mc
+... [truncated, 6503 total chars]
+
+========================================================================
+Time: 2026-03-14 19:03:21
+Tool: Edit
+File: /home/ywatanabe/proj/ywatanabe1989/README.md
+Old:  <!-- ---\n!-- Timestamp: 2026-02-02 05:21:34\n!-- Author: ywatanabe\n!-- File: /hom
+New:  <!-- ---\n!-- Timestamp: 2026-03-14\n!-- Author: ywatanabe\n!-- File: /home/ywatana
+
+========================================================================
+Time: 2026-03-14 19:05:35
+Tool: Bash
+Cmd:  git -C /home/ywatanabe/proj/ywatanabe1989 add README.md && git -C /home/ywatanabe/proj/ywatanabe1989 commit -m "$(cat <<'EOF'\nUpdate README with latest SciTeX ecosystem and Emacs packages\n\nAdd 11 n
+Desc: Commit and push README update to develop
+--- stdout ---
+No files have conflicts
+[develop 6422bde] Update README with latest SciTeX ecosystem and Emacs packages
+ 1 file changed, 26 insertions(+), 15 deletions(-)
+X11 forwarding request failed
+To github.com:ywatanabe1989/ywatanabe1989.git
+   7fdd16c..6422bde  develop -> develop
+
+========================================================================
+Time: 2026-03-14 19:07:03
+Tool: Edit
+File: /home/ywatanabe/proj/ywatanabe1989/README.md
+Old:  <details>\n<summary><b>Emacs Packages</b></summary>\n\n| Category | Package | Descr
+New:  ## Emacs Packages\n\n| Category | Package | Description |\n|----------|---------|--
+
+========================================================================
+Time: 2026-03-14 19:07:16
+Tool: Bash
+Cmd:  git -C /home/ywatanabe/proj/ywatanabe1989 add README.md && git -C /home/ywatanabe/proj/ywatanabe1989 commit -m "$(cat <<'EOF'\nMake Emacs Packages and Resources regular sections, not collapsed\n\nMatc
+Desc: Commit and push to develop
+--- stdout ---
+No files have conflicts
+[develop ec5bf82] Make Emacs Packages and Resources regular sections, not collapsed
+ 1 file changed, 9 insertions(+), 13 deletions(-)
+X11 forwarding request failed
+To github.com:ywatanabe1989/ywatanabe1989.git
+   6422bde..ec5bf82  develop -> develop
+
+========================================================================
+Time: 2026-03-14 19:07:38
+Tool: Edit
+File: /home/ywatanabe/proj/ywatanabe1989/README.md
+Old:  <p align="center">\n  <a href="https://scitex.ai">\n    <img src="./docs/images/sc
+New:  ## SciTeX Ecosystem\n\n<p align="center">\n  <a href="https://scitex.ai">\n    <img 
+
+========================================================================
+Time: 2026-03-14 19:07:51
+Tool: Bash
+Cmd:  git -C /home/ywatanabe/proj/ywatanabe1989 add README.md && git -C /home/ywatanabe/proj/ywatanabe1989 commit -m "$(cat <<'EOF'\nMove logo under SciTeX Ecosystem section header\n\nCo-Authored-By: Claude
+Desc: Commit and push to develop
+--- stdout ---
+No files have conflicts
+[develop 3bc2792] Move logo under SciTeX Ecosystem section header
+ 1 file changed, 2 insertions(+), 5 deletions(-)
+X11 forwarding request failed
+To github.com:ywatanabe1989/ywatanabe1989.git
+   ec5bf82..3bc2792  develop -> develop
+
+========================================================================
+Time: 2026-03-14 19:07:57
+Tool: Edit
+File: /home/ywatanabe/proj/ywatanabe1989/README.md
+Old:  <summary><b>Integrated Packages</b></summary>\n\nStandalone packages usable indepe
+New:  <summary><b>Downstream, Standalone Packages</b></summary>\n\nStandalone packages u
+
+========================================================================
+Time: 2026-03-14 19:08:07
+Tool: Bash
+Cmd:  git -C /home/ywatanabe/proj/ywatanabe1989 add README.md && git -C /home/ywatanabe/proj/ywatanabe1989 commit -m "$(cat <<'EOF'\nRename Integrated Packages to Downstream, Standalone Packages\n\nCo-Autho
+Desc: Commit and push to develop
+--- stdout ---
+No files have conflicts
+[develop 1610163] Rename Integrated Packages to Downstream, Standalone Packages
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+X11 forwarding request failed
+To github.com:ywatanabe1989/ywatanabe1989.git
+   3bc2792..1610163  develop -> develop
+
+========================================================================
+Time: 2026-03-14 19:16:09
+Tool: Bash
+Cmd:  git -C /home/ywatanabe/proj/ywatanabe1989 log --oneline main..develop
+Desc: Show commits on develop not in main
+--- stdout ---
+1610163 Rename Integrated Packages to Downstream, Standalone Packages
+3bc2792 Move logo under SciTeX Ecosystem section header
+ec5bf82 Make Emacs Packages and Resources regular sections, not collapsed
+6422bde Update README with latest SciTeX ecosystem and Emacs packages
+7fdd16c Update README formatting
+c38388c Update README and reorganize files
+8116a6c Remove emacs-semantic-search from README
+d59ef88 Add missing Emacs packages to README
+58ada1e Update ecosystem section with integrated packages and correct publication titles
+2f40632 refactor: Update scitex-code URL to scitex-python
+47c74a0 Merge pull request #24 from ywatanabe1989/develop
+d294a89 Merge main into develop, keep develop version of README
+a53b850 Update README: navy background logo, collapsible sections, consistent footer
+d32e32c Remove duplicate icon from ecosystem table
+3c0b3f3 Update README: navy logo, demo link, rename to scitex-python, add footer
+61b0ee5 Revise README with SciTeX ecosystem updates and visual improvements
+
+========================================================================
+Time: 2026-03-14 19:16:13
+Tool: Bash
+Cmd:  git -C /home/ywatanabe/proj/ywatanabe1989 diff main...develop --stat
+Desc: Show diff stats between main and develop
+--- stdout ---
+ .gitignore                               |   2 +
+ README.md                                | 145 ++++++++++++++++++++++---------
+ advice-for-my-younger-myself-en.md       |  66 --------------
+ advice-for-my-younger-myself-ja.md       | 100 ---------------------
+ docs/advice-for-my-younger-myself-en.md  |   3 +-
+ docs/advice-for-my-younger-myself-ja.md  |  63 ++++++++++----
+ docs/images/scitex-demo.gif              | Bin 0 -> 996059 bytes
+ docs/images/scitex-icon.png              | Bin 0 -> 71479 bytes
+ docs/images/scitex-logo-blue-cropped.png | Bin 0 -> 304953 bytes
+ docs/images/scitex-logo-navy-bg.png      | Bin 0 -> 739013 bytes
+ docs/images/scitex-logo.png              | Bin 0 -> 1493927 bytes
+ 11 files changed, 157 insertions(+), 222 deletions(-)
+
+========================================================================
+Time: 2026-03-14 19:18:17
+Tool: Bash
+Cmd:  gh pr create --repo ywatanabe1989/ywatanabe1989 --base main --head develop --title "Update README with latest SciTeX and Emacs packages" --body "$(cat <<'EOF'\n## Summary\n- Add 11 new SciTeX integrat
+Desc: Create PR from develop to main
+--- stdout ---
+Warning: 1 uncommitted change
+https://github.com/ywatanabe1989/ywatanabe1989/pull/25
+
+========================================================================
+Time: 2026-03-14 19:18:26
+Tool: Bash
+Cmd:  gh pr merge 25 --repo ywatanabe1989/ywatanabe1989 --merge
+Desc: Auto-merge PR #25
+
